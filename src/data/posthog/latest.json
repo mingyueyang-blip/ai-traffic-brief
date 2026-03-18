@@ -1,20 +1,20 @@
 {
-  "fetchedAt": "2026-03-18T15:06:25.642Z",
+  "fetchedAt": "2026-03-18T15:29:03.617Z",
   "lenses": {
     "paid-ads": {
       "overview": {
-        "currentPV": 242540,
-        "previousPV": 247726,
-        "currentUsers": 116698,
-        "previousUsers": 121457,
-        "pvChangePct": -0.020934419479586318,
-        "usersChangePct": -0.03918259136978519
+        "currentPV": 241421,
+        "previousPV": 246696,
+        "currentUsers": 116449,
+        "previousUsers": 120765,
+        "pvChangePct": -0.021382592340370335,
+        "usersChangePct": -0.03573883161512027
       },
       "trends": [
         {
           "date": "2026-03-11",
-          "pv": 101308,
-          "users": 44997
+          "pv": 96706,
+          "users": 42873
         },
         {
           "date": "2026-03-12",
@@ -48,8 +48,8 @@
         },
         {
           "date": "2026-03-18",
-          "pv": 153693,
-          "users": 79186
+          "pv": 157243,
+          "users": 81065
         }
       ],
       "dimensions": [
@@ -60,92 +60,92 @@
             {
               "name": "facebook",
               "dimension": "source",
-              "currentPV": 100167,
-              "previousPV": 100588,
-              "currentUsers": 58617,
-              "previousUsers": 63124,
-              "pvChangePct": -0.004185389907344812,
-              "usersChangePct": -0.07139915087763767
+              "currentPV": 99878,
+              "previousPV": 99967,
+              "currentUsers": 58521,
+              "previousUsers": 62569,
+              "pvChangePct": -0.0008902937969529945,
+              "usersChangePct": -0.06469657498122074
             },
             {
               "name": "google",
               "dimension": "source",
-              "currentPV": 128844,
-              "previousPV": 130097,
-              "currentUsers": 47826,
-              "previousUsers": 46417,
-              "pvChangePct": -0.009631275125483294,
-              "usersChangePct": 0.030355257771937007
+              "currentPV": 128144,
+              "previousPV": 129861,
+              "currentUsers": 47736,
+              "previousUsers": 46308,
+              "pvChangePct": -0.013221829494613471,
+              "usersChangePct": 0.030837004405286344
             },
             {
               "name": "reddit",
               "dimension": "source",
-              "currentPV": 7447,
-              "previousPV": 8757,
-              "currentUsers": 6094,
-              "previousUsers": 7092,
-              "pvChangePct": -0.1495946100262647,
-              "usersChangePct": -0.140721940214326
+              "currentPV": 7376,
+              "previousPV": 8731,
+              "currentUsers": 6031,
+              "previousUsers": 7078,
+              "pvChangePct": -0.15519413583781927,
+              "usersChangePct": -0.14792314213054536
             },
             {
               "name": "tiktok",
               "dimension": "source",
-              "currentPV": 3063,
-              "previousPV": 3478,
-              "currentUsers": 2658,
-              "previousUsers": 3077,
-              "pvChangePct": -0.11932144910868316,
-              "usersChangePct": -0.13617159571010726
+              "currentPV": 3035,
+              "previousPV": 3485,
+              "currentUsers": 2635,
+              "previousUsers": 3079,
+              "pvChangePct": -0.1291248206599713,
+              "usersChangePct": -0.14420266320233843
             },
             {
               "name": "meta",
               "dimension": "source",
-              "currentPV": 1980,
-              "previousPV": 3629,
-              "currentUsers": 1419,
-              "previousUsers": 2370,
-              "pvChangePct": -0.4543951501791127,
-              "usersChangePct": -0.4012658227848101
+              "currentPV": 1962,
+              "previousPV": 3513,
+              "currentUsers": 1401,
+              "previousUsers": 2297,
+              "pvChangePct": -0.44150298889837747,
+              "usersChangePct": -0.39007400957771005
             },
             {
               "name": "ig",
               "dimension": "source",
-              "currentPV": 297,
-              "previousPV": 466,
-              "currentUsers": 282,
-              "previousUsers": 443,
-              "pvChangePct": -0.3626609442060086,
-              "usersChangePct": -0.36343115124153497
+              "currentPV": 294,
+              "previousPV": 455,
+              "currentUsers": 280,
+              "previousUsers": 432,
+              "pvChangePct": -0.35384615384615387,
+              "usersChangePct": -0.35185185185185186
             },
             {
               "name": "an",
               "dimension": "source",
-              "currentPV": 487,
-              "previousPV": 430,
+              "currentPV": 490,
+              "previousPV": 427,
               "currentUsers": 278,
-              "previousUsers": 260,
-              "pvChangePct": 0.1325581395348837,
-              "usersChangePct": 0.06923076923076923
+              "previousUsers": 259,
+              "pvChangePct": 0.14754098360655737,
+              "usersChangePct": 0.07335907335907337
             },
             {
               "name": "fb",
               "dimension": "source",
-              "currentPV": 178,
-              "previousPV": 213,
-              "currentUsers": 126,
+              "currentPV": 179,
+              "previousPV": 198,
+              "currentUsers": 127,
               "previousUsers": 155,
-              "pvChangePct": -0.1643192488262911,
-              "usersChangePct": -0.1870967741935484
+              "pvChangePct": -0.09595959595959595,
+              "usersChangePct": -0.18064516129032257
             },
             {
               "name": "g2",
               "dimension": "source",
-              "currentPV": 16,
-              "previousPV": 9,
-              "currentUsers": 9,
-              "previousUsers": 4,
-              "pvChangePct": 0.7777777777777778,
-              "usersChangePct": 1.25
+              "currentPV": 17,
+              "previousPV": 8,
+              "currentUsers": 10,
+              "previousUsers": 3,
+              "pvChangePct": 1.125,
+              "usersChangePct": 2.3333333333333335
             },
             {
               "name": "youtube",
@@ -166,102 +166,102 @@
             {
               "name": "2025-purchase",
               "dimension": "campaign",
-              "currentPV": 52091,
-              "previousPV": 61673,
-              "currentUsers": 33846,
-              "previousUsers": 41169,
-              "pvChangePct": -0.1553678270880288,
-              "usersChangePct": -0.17787655760402243
+              "currentPV": 51780,
+              "previousPV": 61369,
+              "currentUsers": 33635,
+              "previousUsers": 40930,
+              "pvChangePct": -0.15625152764425035,
+              "usersChangePct": -0.1782311263132177
             },
             {
               "name": "Conversion_Focus",
               "dimension": "campaign",
-              "currentPV": 90203,
-              "previousPV": 92007,
-              "currentUsers": 33026,
-              "previousUsers": 32974,
-              "pvChangePct": -0.01960720379971089,
-              "usersChangePct": 0.0015770000606538485
+              "currentPV": 89468,
+              "previousPV": 92042,
+              "currentUsers": 32903,
+              "previousUsers": 33004,
+              "pvChangePct": -0.027965494013602484,
+              "usersChangePct": -0.0030602351230153923
             },
             {
               "name": "Traffic_Focus",
               "dimension": "campaign",
-              "currentPV": 22770,
-              "previousPV": 21207,
-              "currentUsers": 10174,
-              "previousUsers": 8722,
-              "pvChangePct": 0.07370207950205121,
-              "usersChangePct": 0.1664755789956432
+              "currentPV": 22806,
+              "previousPV": 20930,
+              "currentUsers": 10189,
+              "previousUsers": 8606,
+              "pvChangePct": 0.08963210702341137,
+              "usersChangePct": 0.18394143620729722
             },
             {
               "name": "Creative_Test_ASC_CBO_0805",
               "dimension": "campaign",
-              "currentPV": 9168,
-              "previousPV": 7503,
-              "currentUsers": 4817,
-              "previousUsers": 4213,
-              "pvChangePct": 0.2219112355057977,
-              "usersChangePct": 0.14336577260859246
+              "currentPV": 9236,
+              "previousPV": 7445,
+              "currentUsers": 4888,
+              "previousUsers": 4159,
+              "pvChangePct": 0.24056413700470114,
+              "usersChangePct": 0.17528251983649915
             },
             {
               "name": "[3D Print] Main Countries_Interest Target_Feb_26",
               "dimension": "campaign",
-              "currentPV": 4026,
-              "previousPV": 4746,
-              "currentUsers": 3955,
-              "previousUsers": 4594,
-              "pvChangePct": -0.15170670037926676,
-              "usersChangePct": -0.1390944710491946
+              "currentPV": 4042,
+              "previousPV": 4655,
+              "currentUsers": 3971,
+              "previousUsers": 4503,
+              "pvChangePct": -0.13168635875402793,
+              "usersChangePct": -0.11814345991561181
             },
             {
               "name": "Game Development 26.01.12",
               "dimension": "campaign",
-              "currentPV": 6566,
-              "previousPV": 7165,
-              "currentUsers": 3852,
-              "previousUsers": 4060,
-              "pvChangePct": -0.08360083740404746,
-              "usersChangePct": -0.05123152709359606
+              "currentPV": 6402,
+              "previousPV": 7345,
+              "currentUsers": 3773,
+              "previousUsers": 4150,
+              "pvChangePct": -0.1283866575901974,
+              "usersChangePct": -0.0908433734939759
             },
             {
               "name": "visual-art",
               "dimension": "campaign",
-              "currentPV": 5943,
-              "previousPV": 4049,
-              "currentUsers": 3635,
-              "previousUsers": 2734,
-              "pvChangePct": 0.46776981970857,
-              "usersChangePct": 0.32955376737381126
+              "currentPV": 6072,
+              "previousPV": 4026,
+              "currentUsers": 3707,
+              "previousUsers": 2708,
+              "pvChangePct": 0.5081967213114754,
+              "usersChangePct": 0.3689069423929099
             },
             {
               "name": "gamedev",
               "dimension": "campaign",
-              "currentPV": 3918,
-              "previousPV": 4755,
-              "currentUsers": 2694,
-              "previousUsers": 3407,
-              "pvChangePct": -0.17602523659305994,
-              "usersChangePct": -0.20927502201350162
-            },
-            {
-              "name": "LeadGen_Manual_ROW_SignUp_1020",
-              "dimension": "campaign",
-              "currentPV": 2737,
-              "previousPV": 3135,
-              "currentUsers": 2441,
-              "previousUsers": 2840,
-              "pvChangePct": -0.1269537480063796,
-              "usersChangePct": -0.14049295774647888
+              "currentPV": 3872,
+              "previousPV": 4766,
+              "currentUsers": 2670,
+              "previousUsers": 3418,
+              "pvChangePct": -0.18757868233319344,
+              "usersChangePct": -0.21884142773551785
             },
             {
               "name": "Game Dev_26Feb.",
               "dimension": "campaign",
-              "currentPV": 4089,
-              "previousPV": 2207,
-              "currentUsers": 2424,
+              "currentPV": 4097,
+              "previousPV": 2226,
+              "currentUsers": 2448,
               "previousUsers": 1374,
-              "pvChangePct": 0.8527412777526053,
-              "usersChangePct": 0.7641921397379913
+              "pvChangePct": 0.8405211141060198,
+              "usersChangePct": 0.7816593886462883
+            },
+            {
+              "name": "LeadGen_Manual_ROW_SignUp_1020",
+              "dimension": "campaign",
+              "currentPV": 2709,
+              "previousPV": 3141,
+              "currentUsers": 2416,
+              "previousUsers": 2843,
+              "pvChangePct": -0.13753581661891118,
+              "usersChangePct": -0.1501934576151952
             }
           ]
         },
@@ -272,102 +272,102 @@
             {
               "name": "signup_focus",
               "dimension": "content",
-              "currentPV": 32788,
-              "previousPV": 39249,
-              "currentUsers": 23172,
-              "previousUsers": 28367,
-              "pvChangePct": -0.16461565899768146,
-              "usersChangePct": -0.18313533330983184
+              "currentPV": 32518,
+              "previousPV": 39097,
+              "currentUsers": 23024,
+              "previousUsers": 28238,
+              "pvChangePct": -0.16827378059697676,
+              "usersChangePct": -0.18464480487286636
             },
             {
               "name": "NovTest",
               "dimension": "content",
-              "currentPV": 25738,
-              "previousPV": 24090,
-              "currentUsers": 14753,
-              "previousUsers": 14009,
-              "pvChangePct": 0.06841012868410129,
-              "usersChangePct": 0.05310871582554073
+              "currentPV": 25619,
+              "previousPV": 24120,
+              "currentUsers": 14684,
+              "previousUsers": 14025,
+              "pvChangePct": 0.06214759535655058,
+              "usersChangePct": 0.04698752228163993
             },
             {
               "name": "Brand",
               "dimension": "content",
-              "currentPV": 35694,
-              "previousPV": 35703,
-              "currentUsers": 9004,
-              "previousUsers": 8796,
-              "pvChangePct": -0.00025207965717166626,
-              "usersChangePct": 0.02364711232378354
+              "currentPV": 35406,
+              "previousPV": 35591,
+              "currentUsers": 8989,
+              "previousUsers": 8798,
+              "pvChangePct": -0.005197943300272541,
+              "usersChangePct": 0.021709479427142533
             },
             {
               "name": "Brazil",
               "dimension": "content",
-              "currentPV": 13431,
-              "previousPV": 11480,
-              "currentUsers": 7384,
-              "previousUsers": 6019,
-              "pvChangePct": 0.16994773519163764,
-              "usersChangePct": 0.2267818574514039
+              "currentPV": 13514,
+              "previousPV": 11270,
+              "currentUsers": 7404,
+              "previousUsers": 5909,
+              "pvChangePct": 0.19911268855368233,
+              "usersChangePct": 0.25300389236757487
             },
             {
               "name": "game-development",
               "dimension": "content",
-              "currentPV": 9031,
-              "previousPV": 9952,
-              "currentUsers": 6573,
-              "previousUsers": 7218,
-              "pvChangePct": -0.09254421221864952,
-              "usersChangePct": -0.08935993349958438
+              "currentPV": 8997,
+              "previousPV": 9951,
+              "currentUsers": 6511,
+              "previousUsers": 7212,
+              "pvChangePct": -0.09586976183298161,
+              "usersChangePct": -0.09719911259012756
             },
             {
               "name": "Broad_Targeting",
               "dimension": "content",
-              "currentPV": 9026,
-              "previousPV": 5646,
-              "currentUsers": 4701,
-              "previousUsers": 3072,
-              "pvChangePct": 0.5986539142755933,
-              "usersChangePct": 0.5302734375
+              "currentPV": 9102,
+              "previousPV": 5719,
+              "currentUsers": 4779,
+              "previousUsers": 3104,
+              "pvChangePct": 0.5915369819898584,
+              "usersChangePct": 0.5396262886597938
             },
             {
               "name": "(direct)",
               "dimension": "content",
-              "currentPV": 8941,
-              "previousPV": 9907,
-              "currentUsers": 4298,
-              "previousUsers": 4707,
-              "pvChangePct": -0.09750681336428788,
-              "usersChangePct": -0.08689186318249416
+              "currentPV": 8883,
+              "previousPV": 9859,
+              "currentUsers": 4269,
+              "previousUsers": 4682,
+              "pvChangePct": -0.09899584136322143,
+              "usersChangePct": -0.08821016659547203
             },
             {
               "name": "video_KOL-partnership-KR-04159_260303",
               "dimension": "content",
-              "currentPV": 3989,
-              "previousPV": 4517,
-              "currentUsers": 3921,
-              "previousUsers": 4432,
-              "pvChangePct": -0.11689174230684082,
-              "usersChangePct": -0.11529783393501805
+              "currentPV": 4008,
+              "previousPV": 4434,
+              "currentUsers": 3939,
+              "previousUsers": 4350,
+              "pvChangePct": -0.09607577807848444,
+              "usersChangePct": -0.09448275862068965
             },
             {
               "name": "PMaxstest",
               "dimension": "content",
-              "currentPV": 11144,
-              "previousPV": 14481,
-              "currentUsers": 3666,
-              "previousUsers": 4777,
-              "pvChangePct": -0.23043988674815274,
-              "usersChangePct": -0.2325727444002512
+              "currentPV": 10901,
+              "previousPV": 14682,
+              "currentUsers": 3628,
+              "previousUsers": 4825,
+              "pvChangePct": -0.2575262225854788,
+              "usersChangePct": -0.24808290155440416
             },
             {
               "name": "ROW",
               "dimension": "content",
-              "currentPV": 9310,
-              "previousPV": 9764,
-              "currentUsers": 2788,
-              "previousUsers": 2711,
-              "pvChangePct": -0.04649733715690291,
-              "usersChangePct": 0.028402803393581703
+              "currentPV": 9260,
+              "previousPV": 9702,
+              "currentUsers": 2782,
+              "previousUsers": 2706,
+              "pvChangePct": -0.04555761698618842,
+              "usersChangePct": 0.028085735402808575
             }
           ]
         },
@@ -378,102 +378,102 @@
             {
               "name": "Türkiye",
               "dimension": "country",
-              "currentPV": 45910,
-              "previousPV": 41791,
-              "currentUsers": 23329,
-              "previousUsers": 22288,
-              "pvChangePct": 0.09856189131631213,
-              "usersChangePct": 0.0467067480258435
+              "currentPV": 46027,
+              "previousPV": 41558,
+              "currentUsers": 23463,
+              "previousUsers": 22131,
+              "pvChangePct": 0.10753645507483517,
+              "usersChangePct": 0.06018706791378609
             },
             {
               "name": "United States",
               "dimension": "country",
-              "currentPV": 37799,
-              "previousPV": 40619,
-              "currentUsers": 14799,
-              "previousUsers": 15845,
-              "pvChangePct": -0.06942563824811049,
-              "usersChangePct": -0.06601451562006942
+              "currentPV": 37567,
+              "previousPV": 40418,
+              "currentUsers": 14760,
+              "previousUsers": 15660,
+              "pvChangePct": -0.07053787916274927,
+              "usersChangePct": -0.05747126436781609
             },
             {
               "name": "Nepal",
               "dimension": "country",
-              "currentPV": 14496,
-              "previousPV": 17383,
-              "currentUsers": 10355,
-              "previousUsers": 12580,
-              "pvChangePct": -0.16608180406143933,
-              "usersChangePct": -0.17686804451510335
+              "currentPV": 14324,
+              "previousPV": 17434,
+              "currentUsers": 10257,
+              "previousUsers": 12609,
+              "pvChangePct": -0.1783870597682689,
+              "usersChangePct": -0.18653342850344992
             },
             {
               "name": "India",
               "dimension": "country",
-              "currentPV": 15973,
-              "previousPV": 14596,
-              "currentUsers": 8199,
-              "previousUsers": 6824,
-              "pvChangePct": 0.09434091531926556,
-              "usersChangePct": 0.2014947245017585
+              "currentPV": 16057,
+              "previousPV": 14345,
+              "currentUsers": 8220,
+              "previousUsers": 6704,
+              "pvChangePct": 0.11934471941443012,
+              "usersChangePct": 0.22613365155131265
             },
             {
               "name": "Thailand",
               "dimension": "country",
-              "currentPV": 9282,
-              "previousPV": 9701,
-              "currentUsers": 6396,
-              "previousUsers": 6882,
-              "pvChangePct": -0.04319142356458097,
-              "usersChangePct": -0.07061900610287707
+              "currentPV": 9187,
+              "previousPV": 9744,
+              "currentUsers": 6314,
+              "previousUsers": 6898,
+              "pvChangePct": -0.05716338259441708,
+              "usersChangePct": -0.08466222093360394
             },
             {
               "name": "Bangladesh",
               "dimension": "country",
-              "currentPV": 7518,
-              "previousPV": 9230,
-              "currentUsers": 5504,
-              "previousUsers": 6838,
-              "pvChangePct": -0.18548212351029253,
-              "usersChangePct": -0.195086282538754
+              "currentPV": 7512,
+              "previousPV": 9147,
+              "currentUsers": 5491,
+              "previousUsers": 6785,
+              "pvChangePct": -0.1787471302066251,
+              "usersChangePct": -0.1907148120854827
             },
             {
               "name": "South Korea",
               "dimension": "country",
-              "currentPV": 9682,
-              "previousPV": 8896,
-              "currentUsers": 3702,
-              "previousUsers": 3302,
-              "pvChangePct": 0.0883543165467626,
-              "usersChangePct": 0.12113870381586916
+              "currentPV": 9655,
+              "previousPV": 8874,
+              "currentUsers": 3694,
+              "previousUsers": 3298,
+              "pvChangePct": 0.08800991661032229,
+              "usersChangePct": 0.12007277137659188
             },
             {
               "name": "Italy",
               "dimension": "country",
-              "currentPV": 8818,
-              "previousPV": 9028,
-              "currentUsers": 3339,
-              "previousUsers": 3513,
-              "pvChangePct": -0.023260965883916705,
-              "usersChangePct": -0.04953031596925705
+              "currentPV": 8805,
+              "previousPV": 9045,
+              "currentUsers": 3357,
+              "previousUsers": 3494,
+              "pvChangePct": -0.026533996683250415,
+              "usersChangePct": -0.03921007441327991
             },
             {
               "name": "Pakistan",
               "dimension": "country",
-              "currentPV": 4637,
-              "previousPV": 4893,
-              "currentUsers": 3168,
-              "previousUsers": 3375,
-              "pvChangePct": -0.05231964030247292,
-              "usersChangePct": -0.06133333333333333
+              "currentPV": 4628,
+              "previousPV": 4839,
+              "currentUsers": 3161,
+              "previousUsers": 3354,
+              "pvChangePct": -0.043604050423641245,
+              "usersChangePct": -0.05754323196183661
             },
             {
               "name": "Japan",
               "dimension": "country",
-              "currentPV": 6190,
-              "previousPV": 6231,
-              "currentUsers": 2935,
-              "previousUsers": 2841,
-              "pvChangePct": -0.0065800032097576636,
-              "usersChangePct": 0.03308694121788103
+              "currentPV": 6158,
+              "previousPV": 6226,
+              "currentUsers": 2928,
+              "previousUsers": 2833,
+              "pvChangePct": -0.01092194025056216,
+              "usersChangePct": 0.03353335686551359
             }
           ]
         },
@@ -484,32 +484,32 @@
             {
               "name": "Mobile",
               "dimension": "device",
-              "currentPV": 150707,
-              "previousPV": 153229,
-              "currentUsers": 84919,
-              "previousUsers": 89042,
-              "pvChangePct": -0.016459025380313127,
-              "usersChangePct": -0.04630399137485681
+              "currentPV": 150276,
+              "previousPV": 152467,
+              "currentUsers": 84821,
+              "previousUsers": 88475,
+              "pvChangePct": -0.014370322758367384,
+              "usersChangePct": -0.041299802204012435
             },
             {
               "name": "Desktop",
               "dimension": "device",
-              "currentPV": 81521,
-              "previousPV": 84668,
-              "currentUsers": 26878,
-              "previousUsers": 27535,
-              "pvChangePct": -0.03716870600462985,
-              "usersChangePct": -0.023860541129471582
+              "currentPV": 80987,
+              "previousPV": 84483,
+              "currentUsers": 26824,
+              "previousUsers": 27435,
+              "pvChangePct": -0.04138110625806375,
+              "usersChangePct": -0.022270821942773827
             },
             {
               "name": "Tablet",
               "dimension": "device",
-              "currentPV": 10260,
-              "previousPV": 9816,
-              "currentUsers": 5291,
-              "previousUsers": 5256,
-              "pvChangePct": 0.04523227383863081,
-              "usersChangePct": 0.006659056316590563
+              "currentPV": 10259,
+              "previousPV": 9736,
+              "currentUsers": 5294,
+              "previousUsers": 5220,
+              "pvChangePct": 0.05371815940838127,
+              "usersChangePct": 0.014176245210727969
             }
           ]
         }
@@ -517,91 +517,91 @@
       "distribution": [
         {
           "name": "facebook",
-          "currentUsers": 58610,
-          "previousUsers": 63117,
-          "currentPct": 0.49962065996641347,
-          "previousPct": 0.5134009549451354
+          "currentUsers": 58585,
+          "previousUsers": 62565,
+          "currentPct": 0.5002476262039757,
+          "previousPct": 0.5120472067176273
         },
         {
           "name": "google",
-          "currentUsers": 47826,
-          "previousUsers": 46413,
-          "currentPct": 0.40769250441142624,
-          "previousPct": 0.3775286930916959
+          "currentUsers": 47751,
+          "previousUsers": 46311,
+          "currentPct": 0.40773789193250903,
+          "previousPct": 0.37902050971469725
         },
         {
           "name": "reddit",
-          "currentUsers": 6094,
-          "previousUsers": 7092,
-          "currentPct": 0.051948273363510045,
-          "previousPct": 0.05768714565760255
+          "currentUsers": 6037,
+          "previousUsers": 7078,
+          "currentPct": 0.05154894460004099,
+          "previousPct": 0.057928076866416774
         },
         {
           "name": "tiktok",
-          "currentUsers": 2658,
-          "previousUsers": 3078,
-          "currentPct": 0.022658108073549343,
-          "previousPct": 0.0250368068717006
+          "currentUsers": 2635,
+          "previousUsers": 3080,
+          "currentPct": 0.022499829223307604,
+          "previousPct": 0.02520747057764392
         },
         {
           "name": "meta",
-          "currentUsers": 1418,
-          "previousUsers": 2370,
-          "currentPct": 0.012087734103947693,
-          "previousPct": 0.019277853244291883
+          "currentUsers": 1401,
+          "previousUsers": 2296,
+          "currentPct": 0.011962907302411367,
+          "previousPct": 0.018791023521516376
         },
         {
           "name": "ig",
-          "currentUsers": 282,
-          "previousUsers": 443,
-          "currentPct": 0.002403907628570698,
-          "previousPct": 0.003603413074776922
+          "currentUsers": 280,
+          "previousUsers": 432,
+          "currentPct": 0.002390873693558303,
+          "previousPct": 0.003535593275825381
         },
         {
           "name": "an",
           "currentUsers": 278,
-          "previousUsers": 260,
-          "currentPct": 0.002369809648023596,
-          "previousPct": 0.0021148699761670423
+          "previousUsers": 259,
+          "currentPct": 0.002373796024318601,
+          "previousPct": 0.0021197191167564204
         },
         {
           "name": "fb",
-          "currentUsers": 126,
+          "currentUsers": 127,
           "previousUsers": 155,
-          "currentPct": 0.0010740863872337162,
-          "previousPct": 0.001260787870407275
+          "currentPct": 0.0010844319967210875,
+          "previousPct": 0.0012685577725762363
         },
         {
           "name": "g2",
-          "currentUsers": 9,
-          "previousUsers": 4,
-          "currentPct": 0.00007672045623097972,
-          "previousPct": 0.000032536461171800646
+          "currentUsers": 10,
+          "previousUsers": 3,
+          "currentPct": 0.00008538834619851082,
+          "previousPct": 0.000024552731082120702
         },
         {
           "name": "youtube",
           "currentUsers": 8,
           "previousUsers": 7,
-          "currentPct": 0.0000681959610942042,
-          "previousPct": 0.00005693880705065114
+          "currentPct": 0.00006831067695880866,
+          "previousPct": 0.000057289705858281635
         }
       ],
-      "totalUsers": 230933
+      "totalUsers": 230221
     },
     "kol": {
       "overview": {
-        "currentPV": 1576,
-        "previousPV": 1681,
-        "currentUsers": 788,
-        "previousUsers": 907,
-        "pvChangePct": -0.062462819750148724,
-        "usersChangePct": -0.13120176405733186
+        "currentPV": 1570,
+        "previousPV": 1665,
+        "currentUsers": 785,
+        "previousUsers": 900,
+        "pvChangePct": -0.057057057057057055,
+        "usersChangePct": -0.12777777777777777
       },
       "trends": [
         {
           "date": "2026-03-11",
-          "pv": 467,
-          "users": 228
+          "pv": 432,
+          "users": 211
         },
         {
           "date": "2026-03-12",
@@ -635,8 +635,8 @@
         },
         {
           "date": "2026-03-18",
-          "pv": 1069,
-          "users": 515
+          "pv": 1082,
+          "users": 523
         }
       ],
       "dimensions": [
@@ -647,22 +647,22 @@
             {
               "name": "instagram",
               "dimension": "source",
-              "currentPV": 707,
-              "previousPV": 733,
-              "currentUsers": 491,
-              "previousUsers": 563,
-              "pvChangePct": -0.03547066848567531,
-              "usersChangePct": -0.12788632326820604
+              "currentPV": 700,
+              "previousPV": 739,
+              "currentUsers": 488,
+              "previousUsers": 565,
+              "pvChangePct": -0.05277401894451962,
+              "usersChangePct": -0.13628318584070798
             },
             {
               "name": "youtube",
               "dimension": "source",
-              "currentPV": 819,
-              "previousPV": 912,
+              "currentPV": 820,
+              "previousPV": 891,
               "currentUsers": 271,
-              "previousUsers": 323,
-              "pvChangePct": -0.10197368421052631,
-              "usersChangePct": -0.1609907120743034
+              "previousUsers": 315,
+              "pvChangePct": -0.07968574635241302,
+              "usersChangePct": -0.13968253968253969
             },
             {
               "name": "kocai",
@@ -688,11 +688,11 @@
               "name": "tiktok",
               "dimension": "source",
               "currentPV": 8,
-              "previousPV": 5,
+              "previousPV": 4,
               "currentUsers": 5,
-              "previousUsers": 3,
-              "pvChangePct": 0.6,
-              "usersChangePct": 0.6666666666666666
+              "previousUsers": 2,
+              "pvChangePct": 1,
+              "usersChangePct": 1.5
             },
             {
               "name": "instagram-tiktok",
@@ -753,42 +753,42 @@
             {
               "name": "meshy-march-26-campaign",
               "dimension": "campaign",
-              "currentPV": 616,
-              "previousPV": 787,
-              "currentUsers": 376,
-              "previousUsers": 476,
-              "pvChangePct": -0.21728081321473952,
-              "usersChangePct": -0.21008403361344538
+              "currentPV": 611,
+              "previousPV": 795,
+              "currentUsers": 373,
+              "previousUsers": 480,
+              "pvChangePct": -0.23144654088050315,
+              "usersChangePct": -0.22291666666666668
             },
             {
               "name": "meshy-february-26-campaign",
               "dimension": "campaign",
-              "currentPV": 360,
-              "previousPV": 318,
-              "currentUsers": 178,
-              "previousUsers": 179,
-              "pvChangePct": 0.1320754716981132,
-              "usersChangePct": -0.00558659217877095
+              "currentPV": 357,
+              "previousPV": 309,
+              "currentUsers": 177,
+              "previousUsers": 177,
+              "pvChangePct": 0.1553398058252427,
+              "usersChangePct": 0
             },
             {
               "name": "meshy-december-25-campaign",
               "dimension": "campaign",
-              "currentPV": 223,
-              "previousPV": 132,
+              "currentPV": 225,
+              "previousPV": 131,
               "currentUsers": 83,
-              "previousUsers": 75,
-              "pvChangePct": 0.6893939393939394,
-              "usersChangePct": 0.10666666666666667
+              "previousUsers": 74,
+              "pvChangePct": 0.7175572519083969,
+              "usersChangePct": 0.12162162162162163
             },
             {
               "name": "meshy-january-26-campaign",
               "dimension": "campaign",
               "currentPV": 65,
-              "previousPV": 107,
+              "previousPV": 108,
               "currentUsers": 34,
-              "previousUsers": 52,
-              "pvChangePct": -0.3925233644859813,
-              "usersChangePct": -0.34615384615384615
+              "previousUsers": 53,
+              "pvChangePct": -0.39814814814814814,
+              "usersChangePct": -0.3584905660377358
             },
             {
               "name": "meshy-november-25-campaign",
@@ -804,11 +804,11 @@
               "name": "meshy-may-25-campaign",
               "dimension": "campaign",
               "currentPV": 47,
-              "previousPV": 41,
+              "previousPV": 36,
               "currentUsers": 16,
-              "previousUsers": 15,
-              "pvChangePct": 0.14634146341463414,
-              "usersChangePct": 0.06666666666666667
+              "previousUsers": 13,
+              "pvChangePct": 0.3055555555555556,
+              "usersChangePct": 0.23076923076923078
             },
             {
               "name": "(direct)",
@@ -834,11 +834,11 @@
               "name": "meshy-4",
               "dimension": "campaign",
               "currentPV": 31,
-              "previousPV": 15,
+              "previousPV": 10,
               "currentUsers": 7,
-              "previousUsers": 5,
-              "pvChangePct": 1.0666666666666667,
-              "usersChangePct": 0.4
+              "previousUsers": 3,
+              "pvChangePct": 2.1,
+              "usersChangePct": 1.3333333333333333
             },
             {
               "name": "meshy-august-25-campaign",
@@ -860,41 +860,41 @@
               "name": "photoshopblog",
               "dimension": "content",
               "currentPV": 82,
-              "previousPV": 96,
+              "previousPV": 95,
               "currentUsers": 79,
-              "previousUsers": 93,
-              "pvChangePct": -0.14583333333333334,
-              "usersChangePct": -0.15053763440860216
+              "previousUsers": 92,
+              "pvChangePct": -0.1368421052631579,
+              "usersChangePct": -0.14130434782608695
             },
             {
               "name": "fryder01",
               "dimension": "content",
-              "currentPV": 109,
-              "previousPV": 108,
-              "currentUsers": 75,
-              "previousUsers": 92,
-              "pvChangePct": 0.009259259259259259,
-              "usersChangePct": -0.18478260869565216
+              "currentPV": 102,
+              "previousPV": 116,
+              "currentUsers": 72,
+              "previousUsers": 96,
+              "pvChangePct": -0.1206896551724138,
+              "usersChangePct": -0.25
             },
             {
               "name": "3ddesigner2",
               "dimension": "content",
-              "currentPV": 52,
-              "previousPV": 56,
-              "currentUsers": 52,
-              "previousUsers": 53,
-              "pvChangePct": -0.07142857142857142,
-              "usersChangePct": -0.018867924528301886
+              "currentPV": 51,
+              "previousPV": 57,
+              "currentUsers": 51,
+              "previousUsers": 54,
+              "pvChangePct": -0.10526315789473684,
+              "usersChangePct": -0.05555555555555555
             },
             {
               "name": "cadly3d",
               "dimension": "content",
               "currentPV": 45,
-              "previousPV": 45,
+              "previousPV": 44,
               "currentUsers": 45,
-              "previousUsers": 45,
-              "pvChangePct": 0,
-              "usersChangePct": 0
+              "previousUsers": 44,
+              "pvChangePct": 0.022727272727272728,
+              "usersChangePct": 0.022727272727272728
             },
             {
               "name": "3ddesignwork",
@@ -909,22 +909,22 @@
             {
               "name": "StephanZammit",
               "dimension": "content",
-              "currentPV": 74,
+              "currentPV": 77,
               "previousPV": 235,
-              "currentUsers": 34,
+              "currentUsers": 35,
               "previousUsers": 75,
-              "pvChangePct": -0.6851063829787234,
-              "usersChangePct": -0.5466666666666666
+              "pvChangePct": -0.6723404255319149,
+              "usersChangePct": -0.5333333333333333
             },
             {
               "name": "erjennifer",
               "dimension": "content",
-              "currentPV": 32,
-              "previousPV": 32,
-              "currentUsers": 32,
-              "previousUsers": 31,
-              "pvChangePct": 0,
-              "usersChangePct": 0.03225806451612903
+              "currentPV": 31,
+              "previousPV": 33,
+              "currentUsers": 31,
+              "previousUsers": 32,
+              "pvChangePct": -0.06060606060606061,
+              "usersChangePct": -0.03125
             },
             {
               "name": "taimriseu",
@@ -965,102 +965,102 @@
             {
               "name": "India",
               "dimension": "country",
-              "currentPV": 440,
-              "previousPV": 482,
-              "currentUsers": 293,
-              "previousUsers": 353,
-              "pvChangePct": -0.08713692946058091,
-              "usersChangePct": -0.16997167138810199
+              "currentPV": 432,
+              "previousPV": 484,
+              "currentUsers": 289,
+              "previousUsers": 354,
+              "pvChangePct": -0.10743801652892562,
+              "usersChangePct": -0.18361581920903955
             },
             {
               "name": "South Korea",
               "dimension": "country",
               "currentPV": 242,
-              "previousPV": 276,
+              "previousPV": 265,
               "currentUsers": 74,
-              "previousUsers": 92,
-              "pvChangePct": -0.12318840579710146,
-              "usersChangePct": -0.1956521739130435
+              "previousUsers": 90,
+              "pvChangePct": -0.08679245283018867,
+              "usersChangePct": -0.17777777777777778
             },
             {
               "name": "United States",
               "dimension": "country",
-              "currentPV": 78,
-              "previousPV": 143,
-              "currentUsers": 53,
-              "previousUsers": 84,
-              "pvChangePct": -0.45454545454545453,
-              "usersChangePct": -0.36904761904761907
+              "currentPV": 76,
+              "previousPV": 144,
+              "currentUsers": 51,
+              "previousUsers": 86,
+              "pvChangePct": -0.4722222222222222,
+              "usersChangePct": -0.4069767441860465
             },
             {
               "name": "Italy",
               "dimension": "country",
-              "currentPV": 194,
+              "currentPV": 196,
               "previousPV": 69,
               "currentUsers": 51,
               "previousUsers": 36,
-              "pvChangePct": 1.8115942028985508,
+              "pvChangePct": 1.8405797101449275,
               "usersChangePct": 0.4166666666666667
             },
             {
               "name": "Brazil",
               "dimension": "country",
-              "currentPV": 75,
-              "previousPV": 73,
-              "currentUsers": 38,
-              "previousUsers": 34,
-              "pvChangePct": 0.0273972602739726,
-              "usersChangePct": 0.11764705882352941
+              "currentPV": 74,
+              "previousPV": 74,
+              "currentUsers": 37,
+              "previousUsers": 35,
+              "pvChangePct": 0,
+              "usersChangePct": 0.05714285714285714
             },
             {
               "name": "Germany",
               "dimension": "country",
-              "currentPV": 88,
-              "previousPV": 111,
-              "currentUsers": 32,
-              "previousUsers": 39,
-              "pvChangePct": -0.2072072072072072,
-              "usersChangePct": -0.1794871794871795
+              "currentPV": 86,
+              "previousPV": 114,
+              "currentUsers": 31,
+              "previousUsers": 40,
+              "pvChangePct": -0.24561403508771928,
+              "usersChangePct": -0.225
             },
             {
               "name": "Türkiye",
               "dimension": "country",
-              "currentPV": 48,
+              "currentPV": 47,
               "previousPV": 83,
               "currentUsers": 29,
               "previousUsers": 47,
-              "pvChangePct": -0.42168674698795183,
+              "pvChangePct": -0.43373493975903615,
               "usersChangePct": -0.3829787234042553
             },
             {
               "name": "France",
               "dimension": "country",
-              "currentPV": 47,
-              "previousPV": 28,
-              "currentUsers": 23,
-              "previousUsers": 14,
-              "pvChangePct": 0.6785714285714286,
-              "usersChangePct": 0.6428571428571429
+              "currentPV": 48,
+              "previousPV": 22,
+              "currentUsers": 24,
+              "previousUsers": 11,
+              "pvChangePct": 1.1818181818181819,
+              "usersChangePct": 1.1818181818181819
             },
             {
               "name": "Japan",
               "dimension": "country",
-              "currentPV": 46,
+              "currentPV": 47,
               "previousPV": 63,
-              "currentUsers": 22,
+              "currentUsers": 23,
               "previousUsers": 33,
-              "pvChangePct": -0.2698412698412698,
-              "usersChangePct": -0.3333333333333333
+              "pvChangePct": -0.25396825396825395,
+              "usersChangePct": -0.30303030303030304
             },
             {
               "name": "United Kingdom",
               "dimension": "country",
               "currentPV": 17,
-              "previousPV": 28,
+              "previousPV": 27,
               "currentUsers": 14,
-              "previousUsers": 19,
-              "pvChangePct": -0.39285714285714285,
-              "usersChangePct": -0.2631578947368421
+              "previousUsers": 18,
+              "pvChangePct": -0.37037037037037035,
+              "usersChangePct": -0.2222222222222222
             }
           ]
         }
@@ -1068,91 +1068,91 @@
       "distribution": [
         {
           "name": "instagram",
-          "currentUsers": 491,
-          "previousUsers": 563,
-          "currentPct": 0.6223067173637515,
-          "previousPct": 0.6207276736493936
+          "currentUsers": 488,
+          "previousUsers": 565,
+          "currentPct": 0.6208651399491094,
+          "previousPct": 0.6277777777777778
         },
         {
           "name": "youtube",
           "currentUsers": 271,
-          "previousUsers": 323,
-          "currentPct": 0.34347275031685676,
-          "previousPct": 0.35611907386990077
+          "previousUsers": 315,
+          "currentPct": 0.34478371501272265,
+          "previousPct": 0.35
         },
         {
           "name": "kocai",
           "currentUsers": 13,
           "previousUsers": 2,
-          "currentPct": 0.016476552598225603,
-          "previousPct": 0.002205071664829107
+          "currentPct": 0.01653944020356234,
+          "previousPct": 0.0022222222222222222
         },
         {
           "name": "x",
           "currentUsers": 6,
           "previousUsers": 4,
-          "currentPct": 0.0076045627376425855,
-          "previousPct": 0.004410143329658214
+          "currentPct": 0.007633587786259542,
+          "previousPct": 0.0044444444444444444
         },
         {
           "name": "tiktok",
           "currentUsers": 5,
-          "previousUsers": 3,
-          "currentPct": 0.0063371356147021544,
-          "previousPct": 0.0033076074972436605
+          "previousUsers": 2,
+          "currentPct": 0.006361323155216285,
+          "previousPct": 0.0022222222222222222
         },
         {
           "name": "(none)",
           "currentUsers": 1,
           "previousUsers": 2,
-          "currentPct": 0.0012674271229404308,
-          "previousPct": 0.002205071664829107
+          "currentPct": 0.001272264631043257,
+          "previousPct": 0.0022222222222222222
         },
         {
           "name": "instagram-tiktok",
           "currentUsers": 1,
           "previousUsers": 0,
-          "currentPct": 0.0012674271229404308,
+          "currentPct": 0.001272264631043257,
           "previousPct": 0
         },
         {
           "name": "bilibili",
           "currentUsers": 1,
           "previousUsers": 1,
-          "currentPct": 0.0012674271229404308,
-          "previousPct": 0.0011025358324145535
+          "currentPct": 0.001272264631043257,
+          "previousPct": 0.0011111111111111111
         },
         {
           "name": "twitter",
           "currentUsers": 0,
           "previousUsers": 3,
           "currentPct": 0,
-          "previousPct": 0.0033076074972436605
+          "previousPct": 0.0033333333333333335
         },
         {
           "name": "other",
           "currentUsers": 0,
           "previousUsers": 6,
           "currentPct": 0,
-          "previousPct": 0.006615214994487321
+          "previousPct": 0.006666666666666667
         }
       ],
-      "totalUsers": 230933
+      "totalUsers": 230221
     },
     "seo": {
       "overview": {
-        "currentPV": 451282,
-        "previousPV": 462252,
-        "currentUsers": 114959,
-        "previousUsers": 117078,
-        "pvChangePct": -0.023731644211382536,
-        "usersChangePct": -0.018099045081057072
+        "currentPV": 448851,
+        "previousPV": 461877,
+        "currentUsers": 114622,
+        "previousUsers": 116996,
+        "pvChangePct": -0.02820231360297222,
+        "usersChangePct": -0.020291292009983246
       },
       "trends": [
         {
           "date": "2026-03-11",
-          "pv": 176727,
-          "users": 46228
+          "pv": 167783,
+          "users": 44098
         },
         {
           "date": "2026-03-12",
@@ -1186,8 +1186,8 @@
         },
         {
           "date": "2026-03-18",
-          "pv": 269148,
-          "users": 72745
+          "pv": 275596,
+          "users": 74456
         }
       ],
       "dimensions": [
@@ -1198,102 +1198,102 @@
             {
               "name": "$direct",
               "dimension": "referring_domain",
-              "currentPV": 206672,
-              "previousPV": 208298,
-              "currentUsers": 57702,
-              "previousUsers": 57653,
-              "pvChangePct": -0.007806123918616598,
-              "usersChangePct": 0.0008499124069866269
+              "currentPV": 205398,
+              "previousPV": 208145,
+              "currentUsers": 57489,
+              "previousUsers": 57613,
+              "pvChangePct": -0.01319753056763314,
+              "usersChangePct": -0.0021522920174266223
             },
             {
               "name": "www.google.com",
               "dimension": "referring_domain",
-              "currentPV": 129642,
-              "previousPV": 134718,
-              "currentUsers": 34735,
-              "previousUsers": 35639,
-              "pvChangePct": -0.03767870663163052,
-              "usersChangePct": -0.025365470411627712
+              "currentPV": 129060,
+              "previousPV": 134560,
+              "currentUsers": 34673,
+              "previousUsers": 35643,
+              "pvChangePct": -0.04087395957193817,
+              "usersChangePct": -0.027214319782285442
             },
             {
               "name": "www.meshy.ai",
               "dimension": "referring_domain",
-              "currentPV": 46791,
-              "previousPV": 48016,
+              "currentPV": 46551,
+              "previousPV": 48020,
               "currentUsers": 10833,
-              "previousUsers": 11130,
-              "pvChangePct": -0.025512329223592135,
-              "usersChangePct": -0.026684636118598382
+              "previousUsers": 11077,
+              "pvChangePct": -0.030591420241566015,
+              "usersChangePct": -0.022027624808161055
             },
             {
               "name": "www.bing.com",
               "dimension": "referring_domain",
-              "currentPV": 18027,
-              "previousPV": 19061,
-              "currentUsers": 4397,
-              "previousUsers": 4491,
-              "pvChangePct": -0.054246891558680024,
-              "usersChangePct": -0.020930750389668226
+              "currentPV": 17995,
+              "previousPV": 19032,
+              "currentUsers": 4386,
+              "previousUsers": 4490,
+              "pvChangePct": -0.05448717948717949,
+              "usersChangePct": -0.023162583518930958
             },
             {
               "name": "yandex.ru",
               "dimension": "referring_domain",
-              "currentPV": 5285,
-              "previousPV": 5246,
-              "currentUsers": 1766,
-              "previousUsers": 1778,
-              "pvChangePct": 0.007434235608082348,
-              "usersChangePct": -0.006749156355455568
+              "currentPV": 5260,
+              "previousPV": 5256,
+              "currentUsers": 1763,
+              "previousUsers": 1797,
+              "pvChangePct": 0.00076103500761035,
+              "usersChangePct": -0.018920422927100722
             },
             {
               "name": "com.google.android.gm",
               "dimension": "referring_domain",
-              "currentPV": 2249,
-              "previousPV": 2078,
-              "currentUsers": 1640,
-              "previousUsers": 1532,
-              "pvChangePct": 0.08229066410009625,
-              "usersChangePct": 0.07049608355091384
+              "currentPV": 2213,
+              "previousPV": 2086,
+              "currentUsers": 1608,
+              "previousUsers": 1534,
+              "pvChangePct": 0.060882070949185046,
+              "usersChangePct": 0.048239895697522815
             },
             {
               "name": "cn.bing.com",
               "dimension": "referring_domain",
-              "currentPV": 5388,
-              "previousPV": 5165,
-              "currentUsers": 1335,
-              "previousUsers": 1324,
-              "pvChangePct": 0.043175217812197485,
-              "usersChangePct": 0.008308157099697885
+              "currentPV": 5321,
+              "previousPV": 5235,
+              "currentUsers": 1332,
+              "previousUsers": 1329,
+              "pvChangePct": 0.016427889207258836,
+              "usersChangePct": 0.002257336343115124
             },
             {
               "name": "search.brave.com",
               "dimension": "referring_domain",
-              "currentPV": 4242,
-              "previousPV": 4372,
-              "currentUsers": 1174,
-              "previousUsers": 1219,
-              "pvChangePct": -0.029734675205855442,
-              "usersChangePct": -0.03691550451189499
+              "currentPV": 4156,
+              "previousPV": 4406,
+              "currentUsers": 1154,
+              "previousUsers": 1227,
+              "pvChangePct": -0.05674080798910577,
+              "usersChangePct": -0.059494702526487364
             },
             {
               "name": "accounts.google.com",
               "dimension": "referring_domain",
-              "currentPV": 2035,
-              "previousPV": 2314,
-              "currentUsers": 869,
+              "currentPV": 2015,
+              "previousPV": 2327,
+              "currentUsers": 867,
               "previousUsers": 929,
-              "pvChangePct": -0.1205704407951599,
-              "usersChangePct": -0.06458557588805167
+              "pvChangePct": -0.1340782122905028,
+              "usersChangePct": -0.06673842841765339
             },
             {
               "name": "chatgpt.com",
               "dimension": "referring_domain",
-              "currentPV": 2709,
-              "previousPV": 3649,
-              "currentUsers": 761,
-              "previousUsers": 963,
-              "pvChangePct": -0.2576048232392436,
-              "usersChangePct": -0.20976116303219106
+              "currentPV": 2698,
+              "previousPV": 3588,
+              "currentUsers": 755,
+              "previousUsers": 956,
+              "pvChangePct": -0.2480490523968785,
+              "usersChangePct": -0.2102510460251046
             }
           ]
         },
@@ -1304,102 +1304,102 @@
             {
               "name": "China",
               "dimension": "country",
-              "currentPV": 34679,
-              "previousPV": 34082,
-              "currentUsers": 17984,
-              "previousUsers": 17884,
-              "pvChangePct": 0.017516577665629952,
-              "usersChangePct": 0.005591590248266607
+              "currentPV": 34405,
+              "previousPV": 34253,
+              "currentUsers": 17949,
+              "previousUsers": 17887,
+              "pvChangePct": 0.004437567512334686,
+              "usersChangePct": 0.0034662045060658577
             },
             {
               "name": "United States",
               "dimension": "country",
-              "currentPV": 80443,
-              "previousPV": 82790,
-              "currentUsers": 17102,
-              "previousUsers": 17791,
-              "pvChangePct": -0.02834883440028989,
-              "usersChangePct": -0.03872744646169411
+              "currentPV": 79933,
+              "previousPV": 82817,
+              "currentUsers": 17055,
+              "previousUsers": 17729,
+              "pvChangePct": -0.034823768066942776,
+              "usersChangePct": -0.03801680861864742
             },
             {
               "name": "Türkiye",
               "dimension": "country",
-              "currentPV": 24331,
-              "previousPV": 24269,
-              "currentUsers": 5163,
+              "currentPV": 24335,
+              "previousPV": 24257,
+              "currentUsers": 5138,
               "previousUsers": 5286,
-              "pvChangePct": 0.0025546994107709426,
-              "usersChangePct": -0.023269012485811577
+              "pvChangePct": 0.003215566640557365,
+              "usersChangePct": -0.027998486568293606
             },
             {
               "name": "India",
               "dimension": "country",
-              "currentPV": 17686,
-              "previousPV": 18702,
-              "currentUsers": 5071,
-              "previousUsers": 5106,
-              "pvChangePct": -0.054325740562506684,
-              "usersChangePct": -0.006854680767724246
+              "currentPV": 17563,
+              "previousPV": 18734,
+              "currentUsers": 5053,
+              "previousUsers": 5128,
+              "pvChangePct": -0.06250667236041423,
+              "usersChangePct": -0.014625585023400936
             },
             {
               "name": "Russia",
               "dimension": "country",
-              "currentPV": 16427,
-              "previousPV": 15977,
-              "currentUsers": 4724,
-              "previousUsers": 4588,
-              "pvChangePct": 0.02816548788884021,
-              "usersChangePct": 0.02964254577157803
+              "currentPV": 16405,
+              "previousPV": 15881,
+              "currentUsers": 4707,
+              "previousUsers": 4586,
+              "pvChangePct": 0.032995403312134,
+              "usersChangePct": 0.026384648931530745
             },
             {
               "name": "Germany",
               "dimension": "country",
-              "currentPV": 18891,
-              "previousPV": 20216,
-              "currentUsers": 4492,
-              "previousUsers": 4557,
-              "pvChangePct": -0.06554214483577364,
-              "usersChangePct": -0.014263770024138688
+              "currentPV": 18745,
+              "previousPV": 20077,
+              "currentUsers": 4455,
+              "previousUsers": 4538,
+              "pvChangePct": -0.06634457339243911,
+              "usersChangePct": -0.018289995592772147
             },
             {
               "name": "Brazil",
               "dimension": "country",
-              "currentPV": 15645,
-              "previousPV": 15691,
-              "currentUsers": 3893,
-              "previousUsers": 3928,
-              "pvChangePct": -0.0029316168504238097,
-              "usersChangePct": -0.008910386965376781
+              "currentPV": 15602,
+              "previousPV": 15676,
+              "currentUsers": 3891,
+              "previousUsers": 3921,
+              "pvChangePct": -0.004720591987751978,
+              "usersChangePct": -0.0076511094108645756
             },
             {
               "name": "Spain",
               "dimension": "country",
-              "currentPV": 15224,
-              "previousPV": 15407,
-              "currentUsers": 3474,
-              "previousUsers": 3578,
-              "pvChangePct": -0.01187771792042578,
-              "usersChangePct": -0.029066517607602014
+              "currentPV": 15055,
+              "previousPV": 15437,
+              "currentUsers": 3472,
+              "previousUsers": 3584,
+              "pvChangePct": -0.02474574075273693,
+              "usersChangePct": -0.03125
             },
             {
               "name": "Italy",
               "dimension": "country",
-              "currentPV": 15392,
-              "previousPV": 15604,
-              "currentUsers": 3445,
-              "previousUsers": 3633,
-              "pvChangePct": -0.013586259933350423,
-              "usersChangePct": -0.051747866776768514
+              "currentPV": 15209,
+              "previousPV": 15555,
+              "currentUsers": 3440,
+              "previousUsers": 3625,
+              "pvChangePct": -0.02224365155898425,
+              "usersChangePct": -0.05103448275862069
             },
             {
               "name": "France",
               "dimension": "country",
-              "currentPV": 14300,
-              "previousPV": 14626,
-              "currentUsers": 3362,
-              "previousUsers": 3334,
-              "pvChangePct": -0.02228907425133324,
-              "usersChangePct": 0.008398320335932814
+              "currentPV": 14387,
+              "previousPV": 14488,
+              "currentUsers": 3368,
+              "previousUsers": 3319,
+              "pvChangePct": -0.006971286581998895,
+              "usersChangePct": 0.014763482976800241
             }
           ]
         },
@@ -1410,102 +1410,102 @@
             {
               "name": "/workspace",
               "dimension": "path",
-              "currentPV": 223035,
-              "previousPV": 232401,
-              "currentUsers": 47064,
-              "previousUsers": 48392,
-              "pvChangePct": -0.04030103140692166,
-              "usersChangePct": -0.027442552488014547
+              "currentPV": 221661,
+              "previousPV": 232278,
+              "currentUsers": 46931,
+              "previousUsers": 48357,
+              "pvChangePct": -0.04570816004959574,
+              "usersChangePct": -0.029489008830159025
             },
             {
               "name": "/discover",
               "dimension": "path",
-              "currentPV": 71003,
-              "previousPV": 70996,
-              "currentUsers": 36463,
-              "previousUsers": 37022,
-              "pvChangePct": 0.00009859710406220069,
-              "usersChangePct": -0.015099130246880234
+              "currentPV": 70625,
+              "previousPV": 70971,
+              "currentUsers": 36342,
+              "previousUsers": 37023,
+              "pvChangePct": -0.004875230728043849,
+              "usersChangePct": -0.018393971315128432
             },
             {
               "name": "/",
               "dimension": "path",
-              "currentPV": 29450,
+              "currentPV": 29280,
               "previousPV": 30111,
-              "currentUsers": 26256,
-              "previousUsers": 26869,
-              "pvChangePct": -0.021952110524393078,
-              "usersChangePct": -0.02281439577207935
+              "currentUsers": 26142,
+              "previousUsers": 26855,
+              "pvChangePct": -0.02759788781508419,
+              "usersChangePct": -0.0265499906907466
             },
             {
               "name": "/supa/popup-callback",
               "dimension": "path",
-              "currentPV": 10571,
-              "previousPV": 10997,
-              "currentUsers": 10153,
-              "previousUsers": 10524,
-              "pvChangePct": -0.03873783759207056,
-              "usersChangePct": -0.03525275560623337
+              "currentPV": 10520,
+              "previousPV": 10947,
+              "currentUsers": 10104,
+              "previousUsers": 10486,
+              "pvChangePct": -0.039006120398282634,
+              "usersChangePct": -0.03642952508106046
             },
             {
               "name": "/unsubscribe",
               "dimension": "path",
-              "currentPV": 5475,
-              "previousPV": 5083,
-              "currentUsers": 5142,
-              "previousUsers": 4754,
-              "pvChangePct": 0.07711981113515641,
-              "usersChangePct": 0.08161548169962138
+              "currentPV": 5408,
+              "previousPV": 5078,
+              "currentUsers": 5069,
+              "previousUsers": 4750,
+              "pvChangePct": 0.06498621504529342,
+              "usersChangePct": 0.06715789473684211
             },
             {
               "name": "/settings/subscription",
               "dimension": "path",
-              "currentPV": 5019,
-              "previousPV": 5446,
-              "currentUsers": 3101,
+              "currentPV": 4957,
+              "previousPV": 5441,
+              "currentUsers": 3079,
               "previousUsers": 3353,
-              "pvChangePct": -0.07840616966580977,
-              "usersChangePct": -0.07515657620041753
+              "pvChangePct": -0.08895423635361147,
+              "usersChangePct": -0.08171786459886668
             },
             {
               "name": "/settings/profile",
               "dimension": "path",
-              "currentPV": 3854,
+              "currentPV": 3828,
               "previousPV": 3714,
-              "currentUsers": 2722,
-              "previousUsers": 2682,
-              "pvChangePct": 0.03769520732364028,
-              "usersChangePct": 0.014914243102162566
+              "currentUsers": 2711,
+              "previousUsers": 2662,
+              "pvChangePct": 0.030694668820678513,
+              "usersChangePct": 0.018407212622088654
             },
             {
               "name": "/pricing",
               "dimension": "path",
-              "currentPV": 3132,
-              "previousPV": 3022,
+              "currentPV": 3128,
+              "previousPV": 3031,
               "currentUsers": 2592,
-              "previousUsers": 2556,
-              "pvChangePct": 0.036399735274652546,
-              "usersChangePct": 0.014084507042253521
+              "previousUsers": 2559,
+              "pvChangePct": 0.032002639392939625,
+              "usersChangePct": 0.012895662368112544
             },
             {
               "name": "/features/image-to-3d",
               "dimension": "path",
-              "currentPV": 1796,
-              "previousPV": 1805,
-              "currentUsers": 1549,
-              "previousUsers": 1538,
-              "pvChangePct": -0.004986149584487534,
-              "usersChangePct": 0.007152145643693108
+              "currentPV": 1784,
+              "previousPV": 1813,
+              "currentUsers": 1539,
+              "previousUsers": 1540,
+              "pvChangePct": -0.015995587424158852,
+              "usersChangePct": -0.0006493506493506494
             },
             {
               "name": "/payment-status",
               "dimension": "path",
-              "currentPV": 1743,
-              "previousPV": 1759,
-              "currentUsers": 1433,
-              "previousUsers": 1440,
-              "pvChangePct": -0.009096077316657191,
-              "usersChangePct": -0.004861111111111111
+              "currentPV": 1737,
+              "previousPV": 1761,
+              "currentUsers": 1424,
+              "previousUsers": 1445,
+              "pvChangePct": -0.013628620102214651,
+              "usersChangePct": -0.01453287197231834
             }
           ]
         },
@@ -1516,32 +1516,32 @@
             {
               "name": "Desktop",
               "dimension": "device",
-              "currentPV": 356690,
-              "previousPV": 368521,
-              "currentUsers": 90733,
-              "previousUsers": 92969,
-              "pvChangePct": -0.03210400492780601,
-              "usersChangePct": -0.024051027761942154
+              "currentPV": 354908,
+              "previousPV": 368247,
+              "currentUsers": 90527,
+              "previousUsers": 92944,
+              "pvChangePct": -0.03622296990878405,
+              "usersChangePct": -0.026004906180065415
             },
             {
               "name": "Mobile",
               "dimension": "device",
-              "currentPV": 89285,
-              "previousPV": 88638,
-              "currentUsers": 24824,
-              "previousUsers": 25025,
-              "pvChangePct": 0.007299352422211692,
-              "usersChangePct": -0.008031968031968033
+              "currentPV": 88805,
+              "previousPV": 88460,
+              "currentUsers": 24743,
+              "previousUsers": 24962,
+              "pvChangePct": 0.0039000678272665614,
+              "usersChangePct": -0.008773335469914269
             },
             {
               "name": "Tablet",
               "dimension": "device",
-              "currentPV": 5236,
-              "previousPV": 5102,
-              "currentUsers": 1192,
-              "previousUsers": 1149,
-              "pvChangePct": 0.026264210113680908,
-              "usersChangePct": 0.03742384682332463
+              "currentPV": 5149,
+              "previousPV": 5178,
+              "currentUsers": 1180,
+              "previousUsers": 1160,
+              "pvChangePct": -0.005600617999227501,
+              "usersChangePct": 0.017241379310344827
             }
           ]
         }
@@ -1549,91 +1549,91 @@
       "distribution": [
         {
           "name": "$direct",
-          "currentUsers": 57687,
-          "previousUsers": 57655,
-          "currentPct": 0.5008247673287957,
-          "previousPct": 0.49422666449505814
+          "currentUsers": 57493,
+          "previousUsers": 57609,
+          "currentPct": 0.5005267052626997,
+          "previousPct": 0.4941161334591303
         },
         {
           "name": "www.google.com",
-          "currentUsers": 34728,
-          "previousUsers": 35636,
-          "currentPct": 0.30150020836227254,
-          "previousPct": 0.30547673950127296
+          "currentUsers": 34673,
+          "previousUsers": 35644,
+          "currentPct": 0.3018587036956427,
+          "previousPct": 0.3057209023072305
         },
         {
           "name": "www.meshy.ai",
-          "currentUsers": 10828,
-          "previousUsers": 11130,
-          "currentPct": 0.09400611195999445,
-          "previousPct": 0.09540790522643305
+          "currentUsers": 10834,
+          "previousUsers": 11076,
+          "currentPct": 0.094319418447743,
+          "previousPct": 0.09499957114675359
         },
         {
           "name": "www.bing.com",
-          "currentUsers": 4396,
-          "previousUsers": 4491,
-          "currentPct": 0.03816502291984998,
-          "previousPct": 0.03849747550511328
+          "currentUsers": 4386,
+          "previousUsers": 4490,
+          "currentPct": 0.03818395507769991,
+          "previousPct": 0.03851102152843297
         },
         {
           "name": "yandex.ru",
-          "currentUsers": 1766,
-          "previousUsers": 1777,
-          "currentPct": 0.015331990554243644,
-          "previousPct": 0.015232690708658717
+          "currentUsers": 1763,
+          "previousUsers": 1797,
+          "currentPct": 0.015348452531232315,
+          "previousPct": 0.01541298567630157
         },
         {
           "name": "com.google.android.gm",
-          "currentUsers": 1640,
-          "previousUsers": 1532,
-          "currentPct": 0.01423808862341992,
-          "previousPct": 0.013132516694240379
+          "currentUsers": 1608,
+          "previousUsers": 1534,
+          "currentPct": 0.013999042354067818,
+          "previousPct": 0.013157217600137234
         },
         {
           "name": "cn.bing.com",
-          "currentUsers": 1335,
-          "previousUsers": 1324,
-          "currentPct": 0.011590151409918044,
-          "previousPct": 0.011349511816693383
+          "currentUsers": 1332,
+          "previousUsers": 1329,
+          "currentPct": 0.01159622165150394,
+          "previousPct": 0.011398919289819023
         },
         {
           "name": "search.brave.com",
-          "currentUsers": 1174,
-          "previousUsers": 1219,
-          "currentPct": 0.010192387831643284,
-          "previousPct": 0.010449437239085525
+          "currentUsers": 1154,
+          "previousUsers": 1227,
+          "currentPct": 0.010046576415792452,
+          "previousPct": 0.01052405866712411
         },
         {
           "name": "accounts.google.com",
-          "currentUsers": 869,
-          "previousUsers": 930,
-          "currentPct": 0.007544450618141408,
-          "previousPct": 0.007972089115955322
+          "currentUsers": 867,
+          "previousUsers": 928,
+          "currentPct": 0.007547991120010447,
+          "previousPct": 0.00795951625353804
         },
         {
           "name": "chatgpt.com",
-          "currentUsers": 761,
-          "previousUsers": 963,
-          "currentPct": 0.0066068203917210725,
-          "previousPct": 0.00825496969748922
+          "currentUsers": 755,
+          "previousUsers": 956,
+          "currentPct": 0.0065729334436077135,
+          "previousPct": 0.008199674071532721
         }
       ],
-      "totalUsers": 230933
+      "totalUsers": 230221
     },
     "growth-pm": {
       "overview": {
-        "currentPV": 9174,
-        "previousPV": 10314,
-        "currentUsers": 3363,
-        "previousUsers": 3571,
-        "pvChangePct": -0.11052937754508435,
-        "usersChangePct": -0.05824698963875665
+        "currentPV": 9117,
+        "previousPV": 10204,
+        "currentUsers": 3347,
+        "previousUsers": 3484,
+        "pvChangePct": -0.10652685221481772,
+        "usersChangePct": -0.039322617680826635
       },
       "trends": [
         {
           "date": "2026-03-11",
-          "pv": 4327,
-          "users": 1612
+          "pv": 4102,
+          "users": 1536
         },
         {
           "date": "2026-03-12",
@@ -1667,8 +1667,8 @@
         },
         {
           "date": "2026-03-18",
-          "pv": 5232,
-          "users": 2073
+          "pv": 5356,
+          "users": 2120
         }
       ],
       "dimensions": [
@@ -1679,82 +1679,82 @@
             {
               "name": "meshy",
               "dimension": "source",
-              "currentPV": 7207,
-              "previousPV": 8208,
-              "currentUsers": 2675,
-              "previousUsers": 2788,
-              "pvChangePct": -0.1219541910331384,
-              "usersChangePct": -0.040530846484935434
+              "currentPV": 7159,
+              "previousPV": 8139,
+              "currentUsers": 2660,
+              "previousUsers": 2747,
+              "pvChangePct": -0.1204079125199656,
+              "usersChangePct": -0.03167091372406261
             },
             {
               "name": "(direct)",
               "dimension": "source",
-              "currentPV": 523,
-              "previousPV": 554,
-              "currentUsers": 183,
+              "currentPV": 522,
+              "previousPV": 556,
+              "currentUsers": 181,
               "previousUsers": 189,
-              "pvChangePct": -0.05595667870036101,
-              "usersChangePct": -0.031746031746031744
+              "pvChangePct": -0.06115107913669065,
+              "usersChangePct": -0.042328042328042326
             },
             {
               "name": "sketchfab",
               "dimension": "source",
-              "currentPV": 389,
-              "previousPV": 435,
-              "currentUsers": 148,
-              "previousUsers": 129,
-              "pvChangePct": -0.10574712643678161,
-              "usersChangePct": 0.14728682170542637
+              "currentPV": 387,
+              "previousPV": 440,
+              "currentUsers": 147,
+              "previousUsers": 131,
+              "pvChangePct": -0.12045454545454545,
+              "usersChangePct": 0.12213740458015267
             },
             {
               "name": "whatsapp",
               "dimension": "source",
-              "currentPV": 405,
+              "currentPV": 402,
               "previousPV": 516,
               "currentUsers": 142,
-              "previousUsers": 224,
-              "pvChangePct": -0.21511627906976744,
-              "usersChangePct": -0.36607142857142855
+              "previousUsers": 220,
+              "pvChangePct": -0.22093023255813954,
+              "usersChangePct": -0.35454545454545455
             },
             {
               "name": "referral-program",
               "dimension": "source",
-              "currentPV": 443,
-              "previousPV": 378,
-              "currentUsers": 124,
-              "previousUsers": 93,
-              "pvChangePct": 0.17195767195767195,
-              "usersChangePct": 0.3333333333333333
+              "currentPV": 446,
+              "previousPV": 367,
+              "currentUsers": 123,
+              "previousUsers": 90,
+              "pvChangePct": 0.21525885558583105,
+              "usersChangePct": 0.36666666666666664
             },
             {
               "name": "facebook",
               "dimension": "source",
-              "currentPV": 87,
-              "previousPV": 143,
-              "currentUsers": 70,
-              "previousUsers": 136,
-              "pvChangePct": -0.3916083916083916,
-              "usersChangePct": -0.4852941176470588
+              "currentPV": 90,
+              "previousPV": 100,
+              "currentUsers": 73,
+              "previousUsers": 97,
+              "pvChangePct": -0.1,
+              "usersChangePct": -0.24742268041237114
             },
             {
               "name": "telegram",
               "dimension": "source",
-              "currentPV": 91,
-              "previousPV": 50,
+              "currentPV": 82,
+              "previousPV": 57,
               "currentUsers": 24,
-              "previousUsers": 24,
-              "pvChangePct": 0.82,
-              "usersChangePct": 0
+              "previousUsers": 23,
+              "pvChangePct": 0.43859649122807015,
+              "usersChangePct": 0.043478260869565216
             },
             {
               "name": "twitter",
               "dimension": "source",
               "currentPV": 22,
-              "previousPV": 16,
+              "previousPV": 15,
               "currentUsers": 10,
-              "previousUsers": 10,
-              "pvChangePct": 0.375,
-              "usersChangePct": 0
+              "previousUsers": 9,
+              "pvChangePct": 0.4666666666666667,
+              "usersChangePct": 0.1111111111111111
             },
             {
               "name": "mushy",
@@ -1785,12 +1785,12 @@
             {
               "name": "(direct)",
               "dimension": "share_type",
-              "currentPV": 9175,
-              "previousPV": 10314,
-              "currentUsers": 3363,
-              "previousUsers": 3571,
-              "pvChangePct": -0.11043242195074655,
-              "usersChangePct": -0.05824698963875665
+              "currentPV": 9118,
+              "previousPV": 10204,
+              "currentUsers": 3347,
+              "previousUsers": 3484,
+              "pvChangePct": -0.10642885143081145,
+              "usersChangePct": -0.039322617680826635
             }
           ]
         },
@@ -1801,102 +1801,102 @@
             {
               "name": "/",
               "dimension": "path",
-              "currentPV": 948,
-              "previousPV": 939,
-              "currentUsers": 826,
-              "previousUsers": 825,
-              "pvChangePct": 0.009584664536741214,
-              "usersChangePct": 0.0012121212121212121
+              "currentPV": 949,
+              "previousPV": 936,
+              "currentUsers": 825,
+              "previousUsers": 822,
+              "pvChangePct": 0.013888888888888888,
+              "usersChangePct": 0.0036496350364963502
             },
             {
               "name": "/discover",
               "dimension": "path",
-              "currentPV": 1101,
-              "previousPV": 1161,
-              "currentUsers": 718,
-              "previousUsers": 757,
-              "pvChangePct": -0.05167958656330749,
-              "usersChangePct": -0.05151915455746367
+              "currentPV": 1099,
+              "previousPV": 1158,
+              "currentUsers": 714,
+              "previousUsers": 755,
+              "pvChangePct": -0.05094991364421416,
+              "usersChangePct": -0.054304635761589407
             },
             {
               "name": "/workspace",
               "dimension": "path",
-              "currentPV": 2464,
-              "previousPV": 2785,
-              "currentUsers": 541,
-              "previousUsers": 565,
-              "pvChangePct": -0.11526032315978456,
-              "usersChangePct": -0.04247787610619469
+              "currentPV": 2429,
+              "previousPV": 2783,
+              "currentUsers": 536,
+              "previousUsers": 569,
+              "pvChangePct": -0.127200862378728,
+              "usersChangePct": -0.05799648506151142
             },
             {
               "name": "/supa/popup-callback",
               "dimension": "path",
-              "currentPV": 240,
-              "previousPV": 247,
-              "currentUsers": 231,
-              "previousUsers": 236,
-              "pvChangePct": -0.02834008097165992,
-              "usersChangePct": -0.0211864406779661
+              "currentPV": 241,
+              "previousPV": 245,
+              "currentUsers": 232,
+              "previousUsers": 234,
+              "pvChangePct": -0.0163265306122449,
+              "usersChangePct": -0.008547008547008548
             },
             {
               "name": "/settings/profile",
               "dimension": "path",
-              "currentPV": 139,
-              "previousPV": 177,
-              "currentUsers": 118,
-              "previousUsers": 137,
-              "pvChangePct": -0.21468926553672316,
-              "usersChangePct": -0.1386861313868613
+              "currentPV": 138,
+              "previousPV": 176,
+              "currentUsers": 117,
+              "previousUsers": 136,
+              "pvChangePct": -0.2159090909090909,
+              "usersChangePct": -0.13970588235294118
             },
             {
               "name": "/settings/subscription",
               "dimension": "path",
               "currentPV": 135,
-              "previousPV": 212,
+              "previousPV": 208,
               "currentUsers": 83,
-              "previousUsers": 131,
-              "pvChangePct": -0.3632075471698113,
-              "usersChangePct": -0.366412213740458
+              "previousUsers": 127,
+              "pvChangePct": -0.35096153846153844,
+              "usersChangePct": -0.3464566929133858
             },
             {
               "name": "/payment-status",
               "dimension": "path",
               "currentPV": 89,
-              "previousPV": 100,
+              "previousPV": 99,
               "currentUsers": 76,
               "previousUsers": 82,
-              "pvChangePct": -0.11,
+              "pvChangePct": -0.10101010101010101,
               "usersChangePct": -0.07317073170731707
             },
             {
               "name": "/referral",
               "dimension": "path",
-              "currentPV": 83,
-              "previousPV": 83,
-              "currentUsers": 60,
-              "previousUsers": 63,
-              "pvChangePct": 0,
-              "usersChangePct": -0.047619047619047616
+              "currentPV": 81,
+              "previousPV": 84,
+              "currentUsers": 58,
+              "previousUsers": 64,
+              "pvChangePct": -0.03571428571428571,
+              "usersChangePct": -0.09375
             },
             {
               "name": "/loyalty-credits",
               "dimension": "path",
-              "currentPV": 67,
-              "previousPV": 87,
+              "currentPV": 66,
+              "previousPV": 88,
               "currentUsers": 58,
-              "previousUsers": 80,
-              "pvChangePct": -0.22988505747126436,
-              "usersChangePct": -0.275
+              "previousUsers": 81,
+              "pvChangePct": -0.25,
+              "usersChangePct": -0.2839506172839506
             },
             {
               "name": "/pricing",
               "dimension": "path",
               "currentPV": 57,
-              "previousPV": 70,
+              "previousPV": 71,
               "currentUsers": 47,
-              "previousUsers": 61,
-              "pvChangePct": -0.18571428571428572,
-              "usersChangePct": -0.22950819672131148
+              "previousUsers": 62,
+              "pvChangePct": -0.19718309859154928,
+              "usersChangePct": -0.24193548387096775
             }
           ]
         }
@@ -1904,81 +1904,132 @@
       "distribution": [
         {
           "name": "meshy",
-          "currentUsers": 2675,
-          "previousUsers": 2787,
-          "currentPct": 0.7914201183431953,
-          "previousPct": 0.7758908685968819
+          "currentUsers": 2660,
+          "previousUsers": 2747,
+          "currentPct": 0.7907253269916765,
+          "previousPct": 0.7835139760410724
         },
         {
           "name": "(none)",
-          "currentUsers": 183,
+          "currentUsers": 181,
           "previousUsers": 189,
-          "currentPct": 0.05414201183431953,
-          "previousPct": 0.05261692650334076
+          "currentPct": 0.05380499405469679,
+          "previousPct": 0.05390758699372504
         },
         {
           "name": "sketchfab",
-          "currentUsers": 148,
-          "previousUsers": 129,
-          "currentPct": 0.04378698224852071,
-          "previousPct": 0.03591314031180401
+          "currentUsers": 147,
+          "previousUsers": 131,
+          "currentPct": 0.043697978596908445,
+          "previousPct": 0.03736451796919567
         },
         {
           "name": "whatsapp",
           "currentUsers": 142,
-          "previousUsers": 224,
-          "currentPct": 0.042011834319526625,
-          "previousPct": 0.062360801781737196
+          "previousUsers": 220,
+          "currentPct": 0.04221165279429251,
+          "previousPct": 0.06274957216200798
         },
         {
           "name": "referral-program",
-          "currentUsers": 124,
-          "previousUsers": 93,
-          "currentPct": 0.036686390532544376,
-          "previousPct": 0.02589086859688196
+          "currentUsers": 123,
+          "previousUsers": 90,
+          "currentPct": 0.03656361474435196,
+          "previousPct": 0.02567027952082145
         },
         {
           "name": "facebook",
-          "currentUsers": 70,
-          "previousUsers": 136,
-          "currentPct": 0.020710059171597635,
-          "previousPct": 0.0378619153674833
+          "currentUsers": 73,
+          "previousUsers": 97,
+          "currentPct": 0.021700356718192627,
+          "previousPct": 0.02766685681688534
         },
         {
           "name": "telegram",
           "currentUsers": 24,
-          "previousUsers": 24,
-          "currentPct": 0.007100591715976331,
-          "previousPct": 0.0066815144766146995
+          "previousUsers": 23,
+          "currentPct": 0.007134363852556481,
+          "previousPct": 0.006560182544209926
         },
         {
           "name": "twitter",
           "currentUsers": 10,
-          "previousUsers": 10,
-          "currentPct": 0.0029585798816568047,
-          "previousPct": 0.0027839643652561247
+          "previousUsers": 9,
+          "currentPct": 0.002972651605231867,
+          "previousPct": 0.002567027952082145
         },
         {
           "name": "Bienvenidos",
           "currentUsers": 2,
           "previousUsers": 0,
-          "currentPct": 0.000591715976331361,
+          "currentPct": 0.0005945303210463733,
           "previousPct": 0
         },
         {
           "name": "mushy",
           "currentUsers": 2,
           "previousUsers": 0,
-          "currentPct": 0.000591715976331361,
+          "currentPct": 0.0005945303210463733,
           "previousPct": 0
         }
       ],
-      "totalUsers": 230933,
+      "totalUsers": 230221,
       "subscription": {
-        "currentUsers": 0,
-        "previousUsers": 0,
-        "changePct": 0,
-        "byCountry": []
+        "currentUsers": 25396,
+        "previousUsers": 26562,
+        "changePct": -0.0438972968902944,
+        "byCountry": [
+          {
+            "country": "United States",
+            "currentUsers": 7110,
+            "previousUsers": 7646
+          },
+          {
+            "country": "United Kingdom",
+            "currentUsers": 1321,
+            "previousUsers": 1414
+          },
+          {
+            "country": "South Korea",
+            "currentUsers": 1318,
+            "previousUsers": 1416
+          },
+          {
+            "country": "Germany",
+            "currentUsers": 1278,
+            "previousUsers": 1390
+          },
+          {
+            "country": "Türkiye",
+            "currentUsers": 1069,
+            "previousUsers": 1038
+          },
+          {
+            "country": "Italy",
+            "currentUsers": 1064,
+            "previousUsers": 1112
+          },
+          {
+            "country": "France",
+            "currentUsers": 1012,
+            "previousUsers": 1054
+          },
+          {
+            "country": "Spain",
+            "currentUsers": 919,
+            "previousUsers": 926
+          },
+          {
+            "country": "Canada",
+            "currentUsers": 867,
+            "previousUsers": 936
+          },
+          {
+            "country": "Japan",
+            "currentUsers": 863,
+            "previousUsers": 924
+          }
+        ]
       }
     }
   }

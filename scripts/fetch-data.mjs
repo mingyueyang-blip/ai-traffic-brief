@@ -30,7 +30,7 @@ if (!HOST || !PROJECT_ID || !API_KEY) {
 }
 
 const PAGEVIEW_EVENT = '$pageview'
-const SUBSCRIPTION_EVENT = 'Subscribed users'
+const SUBSCRIBED_COHORT_ID = 81876  // "Subscribed Users" cohort in PostHog
 
 // ── Lens definitions ────────────────────────────────────
 
@@ -216,28 +216,30 @@ async function fetchDistribution(distDimKey, distDimConfig, whereClause) {
 }
 
 async function fetchSubscription() {
-  // Subscription overview: today vs yesterday
+  // Subscribed Users = pageview users who belong to "Subscribed Users" cohort (ID: 81876)
   const { results: overviewResults } = await hogqlQuery(`
     SELECT
       uniqIf(distinct_id, timestamp >= now() - interval 1 day) as current_users,
       uniqIf(distinct_id, timestamp >= now() - interval 2 day AND timestamp < now() - interval 1 day) as previous_users
     FROM events
-    WHERE event = '${SUBSCRIPTION_EVENT}'
+    WHERE event = '${PAGEVIEW_EVENT}'
       AND timestamp >= now() - interval 2 day
+      AND person_id IN COHORT ${SUBSCRIBED_COHORT_ID}
   `)
 
   const [currentUsers, previousUsers] = overviewResults[0]
   const changePct = previousUsers === 0 ? 0 : (currentUsers - previousUsers) / previousUsers
 
-  // Subscription by country
+  // Subscribed users by country
   const { results: countryResults } = await hogqlQuery(`
     SELECT
       coalesce(toString(properties.$geoip_country_name), '(unknown)') as country,
       uniqIf(distinct_id, timestamp >= now() - interval 1 day) as current_users,
       uniqIf(distinct_id, timestamp >= now() - interval 2 day AND timestamp < now() - interval 1 day) as previous_users
     FROM events
-    WHERE event = '${SUBSCRIPTION_EVENT}'
+    WHERE event = '${PAGEVIEW_EVENT}'
       AND timestamp >= now() - interval 2 day
+      AND person_id IN COHORT ${SUBSCRIBED_COHORT_ID}
     GROUP BY country
     HAVING current_users > 0 OR previous_users > 0
     ORDER BY current_users DESC
