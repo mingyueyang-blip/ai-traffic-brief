@@ -1,14 +1,17 @@
 import { useMemo } from 'react'
-import type { TrafficOverview, TrendDataPoint, DimensionBreakdown } from '../data/types'
+import { useLens } from '../context/LensContext'
+import type { TrafficOverview, TrendDataPoint, DimensionBreakdown, DistributionItem, AllLensData } from '../data/types'
 
 // import.meta.glob won't fail if the file doesn't exist yet
 const modules = import.meta.glob('../data/posthog/latest.json', { eager: true })
-const posthogRaw = Object.values(modules)[0] as Record<string, unknown> | undefined
+const posthogRaw = Object.values(modules)[0] as AllLensData | undefined
 
-interface TrafficData {
+export interface TrafficData {
   overview: TrafficOverview
   trends: TrendDataPoint[]
   dimensions: DimensionBreakdown[]
+  distribution: DistributionItem[]
+  totalUsers: number
 }
 
 const EMPTY_DATA: TrafficData = {
@@ -19,19 +22,26 @@ const EMPTY_DATA: TrafficData = {
   },
   trends: [],
   dimensions: [],
+  distribution: [],
+  totalUsers: 0,
 }
 
 export function useTrafficData(): TrafficData {
+  const { lens } = useLens()
+
   return useMemo(() => {
-    if (posthogRaw) {
+    if (posthogRaw?.lenses?.[lens]) {
+      const d = posthogRaw.lenses[lens]
       return {
-        overview: posthogRaw.overview as TrafficOverview,
-        trends: posthogRaw.trends as TrendDataPoint[],
-        dimensions: posthogRaw.dimensions as DimensionBreakdown[],
+        overview: d.overview,
+        trends: d.trends,
+        dimensions: d.dimensions,
+        distribution: d.distribution,
+        totalUsers: d.totalUsers,
       }
     }
 
     console.warn('No PostHog data found. Run `pnpm fetch-data` to fetch real data.')
     return EMPTY_DATA
-  }, [])
+  }, [lens])
 }

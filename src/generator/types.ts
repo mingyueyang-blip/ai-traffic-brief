@@ -6,5 +6,6 @@ export interface BriefGenerator {
     overview: TrafficOverview,
     anomalies: AnomalyCandidate[],
     weather: WeatherResult,
+    lensLabel?: string,
   ): BriefOutput
 }

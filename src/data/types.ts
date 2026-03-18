@@ -56,3 +56,28 @@ export interface DimensionBreakdown {
   label: string
   items: DimensionItem[]
 }
+
+// ── Lens Architecture ──────────────────────────────────
+
+export type LensKey = 'all' | 'paid-ads' | 'kol' | 'seo' | 'growth-pm'
+
+export interface DistributionItem {
+  name: string
+  currentUsers: number
+  previousUsers: number
+  currentPct: number    // today's share (0-1)
+  previousPct: number   // yesterday's share (0-1)
+}
+
+export interface LensData {
+  overview: TrafficOverview
+  trends: TrendDataPoint[]
+  dimensions: DimensionBreakdown[]
+  distribution: DistributionItem[]
+  totalUsers: number  // site-wide total Users (for share calculation)
+}
+
+export interface AllLensData {
+  fetchedAt: string
+  lenses: Record<LensKey, LensData>
+}
