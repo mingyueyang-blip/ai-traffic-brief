@@ -16,9 +16,6 @@ dist-ssr
 .env
 .env.local
 
-# Generated PostHog data
-src/data/posthog/
-
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
