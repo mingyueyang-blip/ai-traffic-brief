@@ -1,18 +1,18 @@
 {
-  "fetchedAt": "2026-03-18T09:39:00.862Z",
+  "fetchedAt": "2026-03-18T10:08:05.108Z",
   "overview": {
-    "currentPV": 707627,
-    "previousPV": 738455,
-    "currentUsers": 232928,
-    "previousUsers": 243311,
-    "pvChangePct": -0.04174661963152799,
-    "usersChangePct": -0.042673779648269086
+    "currentPV": 707166,
+    "previousPV": 737558,
+    "currentUsers": 232781,
+    "previousUsers": 243100,
+    "pvChangePct": -0.041206250898234445,
+    "usersChangePct": -0.042447552447552446
   },
   "trends": [
     {
       "date": "2026-03-11",
-      "pv": 472583,
-      "users": 152421
+      "pv": 457077,
+      "users": 147348
     },
     {
       "date": "2026-03-12",
@@ -46,8 +46,8 @@
     },
     {
       "date": "2026-03-18",
-      "pv": 247125,
-      "users": 89892
+      "pv": 261967,
+      "users": 94905
     }
   ],
   "dimensions": [
@@ -58,302 +58,302 @@
         {
           "name": "United States",
           "dimension": "country",
-          "currentPV": 121071,
-          "previousPV": 126258,
-          "currentUsers": 31810,
-          "previousUsers": 33463,
-          "pvChangePct": -0.04108254526445849,
-          "usersChangePct": -0.04939784239309088
+          "currentPV": 120962,
+          "previousPV": 126342,
+          "currentUsers": 31801,
+          "previousUsers": 33468,
+          "pvChangePct": -0.04258283072929034,
+          "usersChangePct": -0.049808772558862194
         },
         {
           "name": "Türkiye",
           "dimension": "country",
-          "currentPV": 66635,
-          "previousPV": 71747,
-          "currentUsers": 26039,
-          "previousUsers": 29670,
-          "pvChangePct": -0.0712503658689562,
-          "usersChangePct": -0.12237950792045837
+          "currentPV": 66926,
+          "previousPV": 71151,
+          "currentUsers": 26207,
+          "previousUsers": 29460,
+          "pvChangePct": -0.05938075360852272,
+          "usersChangePct": -0.11042090970807875
         },
         {
           "name": "China",
           "dimension": "country",
-          "currentPV": 35211,
-          "previousPV": 35759,
-          "currentUsers": 17603,
-          "previousUsers": 18501,
-          "pvChangePct": -0.0153248133337062,
-          "usersChangePct": -0.04853791686935841
+          "currentPV": 35159,
+          "previousPV": 35626,
+          "currentUsers": 17585,
+          "previousUsers": 18503,
+          "pvChangePct": -0.013108403974625274,
+          "usersChangePct": -0.04961357617683619
         },
         {
           "name": "India",
           "dimension": "country",
-          "currentPV": 34671,
-          "previousPV": 37522,
-          "currentUsers": 13257,
-          "previousUsers": 13596,
-          "pvChangePct": -0.07598209050690262,
-          "usersChangePct": -0.02493380406001765
+          "currentPV": 34659,
+          "previousPV": 37005,
+          "currentUsers": 13320,
+          "previousUsers": 13079,
+          "pvChangePct": -0.06339683826509931,
+          "usersChangePct": 0.018426485205290926
         },
         {
           "name": "Nepal",
           "dimension": "country",
-          "currentPV": 16903,
-          "previousPV": 17146,
-          "currentUsers": 11837,
-          "previousUsers": 12204,
-          "pvChangePct": -0.014172401726350169,
-          "usersChangePct": -0.030072107505735825
+          "currentPV": 16732,
+          "previousPV": 17284,
+          "currentUsers": 11709,
+          "previousUsers": 12290,
+          "pvChangePct": -0.03193705160842398,
+          "usersChangePct": -0.04727420667209113
         },
         {
           "name": "Thailand",
           "dimension": "country",
-          "currentPV": 14997,
-          "previousPV": 15842,
-          "currentUsers": 8126,
-          "previousUsers": 8325,
-          "pvChangePct": -0.05333922484534781,
-          "usersChangePct": -0.023903903903903904
-        },
-        {
-          "name": "Germany",
-          "dimension": "country",
-          "currentPV": 27381,
-          "previousPV": 28423,
-          "currentUsers": 6830,
-          "previousUsers": 6939,
-          "pvChangePct": -0.03666045104316926,
-          "usersChangePct": -0.01570831531921026
+          "currentPV": 14859,
+          "previousPV": 15919,
+          "currentUsers": 8076,
+          "previousUsers": 8314,
+          "pvChangePct": -0.06658709717947107,
+          "usersChangePct": -0.02862641327880683
         },
         {
           "name": "Italy",
           "dimension": "country",
-          "currentPV": 25560,
-          "previousPV": 24909,
-          "currentUsers": 6824,
-          "previousUsers": 7033,
-          "pvChangePct": 0.026135131880043357,
-          "usersChangePct": -0.029717048201336558
+          "currentPV": 25799,
+          "previousPV": 25001,
+          "currentUsers": 6847,
+          "previousUsers": 7070,
+          "pvChangePct": 0.03191872325106996,
+          "usersChangePct": -0.03154172560113154
+        },
+        {
+          "name": "Germany",
+          "dimension": "country",
+          "currentPV": 27216,
+          "previousPV": 28513,
+          "currentUsers": 6800,
+          "previousUsers": 6971,
+          "pvChangePct": -0.04548802300704942,
+          "usersChangePct": -0.02453019652847511
         },
         {
           "name": "South Korea",
           "dimension": "country",
-          "currentPV": 26327,
-          "previousPV": 27645,
-          "currentUsers": 6624,
-          "previousUsers": 6401,
-          "pvChangePct": -0.047675890757822394,
-          "usersChangePct": 0.03483830651460709
+          "currentPV": 26291,
+          "previousPV": 27566,
+          "currentUsers": 6620,
+          "previousUsers": 6369,
+          "pvChangePct": -0.046252630051512734,
+          "usersChangePct": 0.039409640445909874
         },
         {
           "name": "Japan",
           "dimension": "country",
-          "currentPV": 22394,
-          "previousPV": 24324,
-          "currentUsers": 6212,
-          "previousUsers": 6427,
-          "pvChangePct": -0.07934550238447624,
-          "usersChangePct": -0.03345262175198382
+          "currentPV": 22518,
+          "previousPV": 24129,
+          "currentUsers": 6235,
+          "previousUsers": 6390,
+          "pvChangePct": -0.06676613204028348,
+          "usersChangePct": -0.024256651017214397
         },
         {
           "name": "Bangladesh",
           "dimension": "country",
-          "currentPV": 8736,
-          "previousPV": 9997,
-          "currentUsers": 6056,
-          "previousUsers": 6893,
-          "pvChangePct": -0.12613784135240572,
-          "usersChangePct": -0.12142753518061802
+          "currentPV": 8798,
+          "previousPV": 10091,
+          "currentUsers": 6086,
+          "previousUsers": 6955,
+          "pvChangePct": -0.12813398077494798,
+          "usersChangePct": -0.12494608195542775
         },
         {
           "name": "Spain",
           "dimension": "country",
-          "currentPV": 20278,
-          "previousPV": 21108,
-          "currentUsers": 5836,
-          "previousUsers": 6206,
-          "pvChangePct": -0.03932158423346598,
-          "usersChangePct": -0.059619722848855944
+          "currentPV": 20318,
+          "previousPV": 21037,
+          "currentUsers": 5853,
+          "previousUsers": 6205,
+          "pvChangePct": -0.03417787707372724,
+          "usersChangePct": -0.05672844480257857
         },
         {
           "name": "France",
           "dimension": "country",
-          "currentPV": 21820,
-          "previousPV": 22179,
-          "currentUsers": 5707,
-          "previousUsers": 5839,
-          "pvChangePct": -0.01618648270886875,
-          "usersChangePct": -0.022606610721013873
+          "currentPV": 21913,
+          "previousPV": 21966,
+          "currentUsers": 5717,
+          "previousUsers": 5795,
+          "pvChangePct": -0.0024128198124374035,
+          "usersChangePct": -0.013459879206212251
         },
         {
           "name": "Brazil",
           "dimension": "country",
-          "currentPV": 21102,
-          "previousPV": 21385,
-          "currentUsers": 5636,
-          "previousUsers": 5636,
-          "pvChangePct": -0.013233574935702595,
-          "usersChangePct": 0
+          "currentPV": 21041,
+          "previousPV": 21462,
+          "currentUsers": 5629,
+          "previousUsers": 5649,
+          "pvChangePct": -0.019616065604323923,
+          "usersChangePct": -0.0035404496371039124
         },
         {
           "name": "United Kingdom",
           "dimension": "country",
-          "currentPV": 21539,
-          "previousPV": 23870,
-          "currentUsers": 5405,
-          "previousUsers": 5579,
-          "pvChangePct": -0.09765395894428153,
-          "usersChangePct": -0.031188385015235704
+          "currentPV": 21537,
+          "previousPV": 23944,
+          "currentUsers": 5400,
+          "previousUsers": 5566,
+          "pvChangePct": -0.10052622786501837,
+          "usersChangePct": -0.02982393100970176
         },
         {
           "name": "Canada",
           "dimension": "country",
-          "currentPV": 18385,
-          "previousPV": 18729,
-          "currentUsers": 5129,
-          "previousUsers": 5366,
-          "pvChangePct": -0.018367237973196646,
-          "usersChangePct": -0.04416697726425643
+          "currentPV": 18358,
+          "previousPV": 18757,
+          "currentUsers": 5136,
+          "previousUsers": 5362,
+          "pvChangePct": -0.0212720584315189,
+          "usersChangePct": -0.04214845207012309
         },
         {
           "name": "Russia",
           "dimension": "country",
-          "currentPV": 16568,
-          "previousPV": 16738,
-          "currentUsers": 4800,
-          "previousUsers": 4744,
-          "pvChangePct": -0.010156530051380093,
-          "usersChangePct": 0.011804384485666104
+          "currentPV": 16460,
+          "previousPV": 16779,
+          "currentUsers": 4780,
+          "previousUsers": 4768,
+          "pvChangePct": -0.019011860063174207,
+          "usersChangePct": 0.0025167785234899327
         },
         {
           "name": "Pakistan",
           "dimension": "country",
-          "currentPV": 6790,
-          "previousPV": 6899,
-          "currentUsers": 3829,
-          "previousUsers": 3920,
-          "pvChangePct": -0.01579939121611828,
-          "usersChangePct": -0.023214285714285715
+          "currentPV": 6833,
+          "previousPV": 6911,
+          "currentUsers": 3810,
+          "previousUsers": 3960,
+          "pvChangePct": -0.011286355086094631,
+          "usersChangePct": -0.03787878787878788
         },
         {
           "name": "Poland",
           "dimension": "country",
-          "currentPV": 10492,
-          "previousPV": 11534,
-          "currentUsers": 2996,
-          "previousUsers": 3181,
-          "pvChangePct": -0.09034159875151726,
-          "usersChangePct": -0.05815781200880226
+          "currentPV": 10403,
+          "previousPV": 11592,
+          "currentUsers": 2968,
+          "previousUsers": 3199,
+          "pvChangePct": -0.10257073844030366,
+          "usersChangePct": -0.07221006564551423
         },
         {
           "name": "Australia",
           "dimension": "country",
-          "currentPV": 9131,
-          "previousPV": 8603,
-          "currentUsers": 2412,
-          "previousUsers": 2436,
-          "pvChangePct": 0.061373939323491805,
-          "usersChangePct": -0.009852216748768473
+          "currentPV": 9144,
+          "previousPV": 8596,
+          "currentUsers": 2411,
+          "previousUsers": 2421,
+          "pvChangePct": 0.0637505816658911,
+          "usersChangePct": -0.004130524576621231
         },
         {
           "name": "The Netherlands",
           "dimension": "country",
-          "currentPV": 8593,
-          "previousPV": 9243,
-          "currentUsers": 2353,
-          "previousUsers": 2411,
-          "pvChangePct": -0.07032348804500703,
-          "usersChangePct": -0.024056408129406886
+          "currentPV": 8622,
+          "previousPV": 9145,
+          "currentUsers": 2331,
+          "previousUsers": 2404,
+          "pvChangePct": -0.057189721159103334,
+          "usersChangePct": -0.03036605657237937
         },
         {
           "name": "Mexico",
           "dimension": "country",
-          "currentPV": 7657,
-          "previousPV": 6537,
-          "currentUsers": 2219,
-          "previousUsers": 1916,
-          "pvChangePct": 0.17133241548110753,
-          "usersChangePct": 0.1581419624217119
+          "currentPV": 7670,
+          "previousPV": 6534,
+          "currentUsers": 2223,
+          "previousUsers": 1913,
+          "pvChangePct": 0.1738598102234466,
+          "usersChangePct": 0.1620491374803973
         },
         {
           "name": "Vietnam",
           "dimension": "country",
-          "currentPV": 7900,
-          "previousPV": 7245,
-          "currentUsers": 2152,
-          "previousUsers": 1992,
-          "pvChangePct": 0.0904071773636991,
-          "usersChangePct": 0.08032128514056225
+          "currentPV": 7857,
+          "previousPV": 7345,
+          "currentUsers": 2166,
+          "previousUsers": 1993,
+          "pvChangePct": 0.0697072838665759,
+          "usersChangePct": 0.0868038133467135
         },
         {
           "name": "Algeria",
           "dimension": "country",
-          "currentPV": 3558,
-          "previousPV": 4085,
-          "currentUsers": 2136,
-          "previousUsers": 2283,
-          "pvChangePct": -0.12900856793145654,
-          "usersChangePct": -0.06438896189224705
+          "currentPV": 3582,
+          "previousPV": 4073,
+          "currentUsers": 2131,
+          "previousUsers": 2290,
+          "pvChangePct": -0.120549963172109,
+          "usersChangePct": -0.06943231441048035
         },
         {
           "name": "Iraq",
           "dimension": "country",
-          "currentPV": 3621,
-          "previousPV": 4336,
-          "currentUsers": 2050,
-          "previousUsers": 2442,
-          "pvChangePct": -0.16489852398523985,
-          "usersChangePct": -0.16052416052416052
+          "currentPV": 3610,
+          "previousPV": 4341,
+          "currentUsers": 2032,
+          "previousUsers": 2458,
+          "pvChangePct": -0.16839437917530523,
+          "usersChangePct": -0.17331163547599673
         },
         {
           "name": "Hong Kong",
           "dimension": "country",
-          "currentPV": 7984,
-          "previousPV": 9354,
-          "currentUsers": 1991,
-          "previousUsers": 2065,
-          "pvChangePct": -0.14646140688475517,
-          "usersChangePct": -0.03583535108958838
+          "currentPV": 7997,
+          "previousPV": 9290,
+          "currentUsers": 2003,
+          "previousUsers": 2072,
+          "pvChangePct": -0.13918191603875135,
+          "usersChangePct": -0.033301158301158304
         },
         {
           "name": "Ukraine",
           "dimension": "country",
-          "currentPV": 5436,
-          "previousPV": 5307,
-          "currentUsers": 1697,
-          "previousUsers": 1621,
-          "pvChangePct": 0.02430751837196156,
-          "usersChangePct": 0.04688463911165947
+          "currentPV": 5404,
+          "previousPV": 5379,
+          "currentUsers": 1685,
+          "previousUsers": 1634,
+          "pvChangePct": 0.0046477040342071015,
+          "usersChangePct": 0.031211750305997554
         },
         {
           "name": "Argentina",
           "dimension": "country",
-          "currentPV": 5518,
-          "previousPV": 4869,
+          "currentPV": 5497,
+          "previousPV": 4871,
           "currentUsers": 1546,
-          "previousUsers": 1403,
-          "pvChangePct": 0.1332922571369891,
-          "usersChangePct": 0.10192444761225944
+          "previousUsers": 1404,
+          "pvChangePct": 0.12851570519400535,
+          "usersChangePct": 0.10113960113960115
         },
         {
           "name": "Taiwan",
           "dimension": "country",
-          "currentPV": 4550,
-          "previousPV": 4772,
-          "currentUsers": 1499,
-          "previousUsers": 1555,
-          "pvChangePct": -0.04652137468566639,
-          "usersChangePct": -0.0360128617363344
+          "currentPV": 4509,
+          "previousPV": 4753,
+          "currentUsers": 1493,
+          "previousUsers": 1544,
+          "pvChangePct": -0.05133599831685252,
+          "usersChangePct": -0.033031088082901554
         },
         {
           "name": "Israel",
           "dimension": "country",
-          "currentPV": 4566,
-          "previousPV": 4365,
-          "currentUsers": 1325,
-          "previousUsers": 1250,
-          "pvChangePct": 0.04604810996563574,
-          "usersChangePct": 0.06
+          "currentPV": 4607,
+          "previousPV": 4379,
+          "currentUsers": 1332,
+          "previousUsers": 1251,
+          "pvChangePct": 0.05206668189084266,
+          "usersChangePct": 0.06474820143884892
         }
       ]
     },
@@ -364,212 +364,212 @@
         {
           "name": "(direct)",
           "dimension": "source",
-          "currentPV": 449996,
-          "previousPV": 468019,
-          "currentUsers": 114997,
-          "previousUsers": 117251,
-          "pvChangePct": -0.038509120356224856,
-          "usersChangePct": -0.019223716642075547
+          "currentPV": 449466,
+          "previousPV": 467801,
+          "currentUsers": 114741,
+          "previousUsers": 117278,
+          "pvChangePct": -0.03919401625905032,
+          "usersChangePct": -0.021632360715564725
         },
         {
           "name": "facebook",
           "dimension": "source",
-          "currentPV": 100847,
-          "previousPV": 103700,
-          "currentUsers": 59389,
-          "previousUsers": 65427,
-          "pvChangePct": -0.02751205400192864,
-          "usersChangePct": -0.09228605927216593
+          "currentPV": 100646,
+          "previousPV": 103943,
+          "currentUsers": 59231,
+          "previousUsers": 65642,
+          "pvChangePct": -0.03171930769748805,
+          "usersChangePct": -0.09766612839340666
         },
         {
           "name": "google",
           "dimension": "source",
-          "currentPV": 128995,
-          "previousPV": 132558,
-          "currentUsers": 47593,
-          "previousUsers": 47620,
-          "pvChangePct": -0.02687880022329848,
-          "usersChangePct": -0.0005669886602267955
+          "currentPV": 129262,
+          "previousPV": 131761,
+          "currentUsers": 47720,
+          "previousUsers": 47021,
+          "pvChangePct": -0.01896615842320565,
+          "usersChangePct": 0.014865698305012654
         },
         {
           "name": "reddit",
           "dimension": "source",
-          "currentPV": 7956,
-          "previousPV": 9428,
-          "currentUsers": 6430,
-          "previousUsers": 7547,
-          "pvChangePct": -0.15613067458633856,
-          "usersChangePct": -0.14800583013117796
+          "currentPV": 7905,
+          "previousPV": 9464,
+          "currentUsers": 6415,
+          "previousUsers": 7542,
+          "pvChangePct": -0.16472950126796282,
+          "usersChangePct": -0.1494298594537258
         },
         {
           "name": "tiktok",
           "dimension": "source",
-          "currentPV": 3153,
-          "previousPV": 3358,
-          "currentUsers": 2764,
-          "previousUsers": 2941,
-          "pvChangePct": -0.06104824300178678,
-          "usersChangePct": -0.060183611016661
+          "currentPV": 3172,
+          "previousPV": 3343,
+          "currentUsers": 2780,
+          "previousUsers": 2932,
+          "pvChangePct": -0.05115166018546216,
+          "usersChangePct": -0.05184174624829468
         },
         {
           "name": "meshy",
           "dimension": "source",
-          "currentPV": 7607,
+          "currentPV": 7625,
           "previousPV": 8400,
-          "currentUsers": 2746,
+          "currentUsers": 2754,
           "previousUsers": 2818,
-          "pvChangePct": -0.09440476190476191,
-          "usersChangePct": -0.0255500354861604
+          "pvChangePct": -0.09226190476190477,
+          "usersChangePct": -0.0227111426543648
         },
         {
           "name": "meta",
           "dimension": "source",
-          "currentPV": 2199,
-          "previousPV": 5028,
-          "currentUsers": 1499,
-          "previousUsers": 3217,
-          "pvChangePct": -0.5626491646778043,
-          "usersChangePct": -0.5340379235312402
+          "currentPV": 2200,
+          "previousPV": 4915,
+          "currentUsers": 1504,
+          "previousUsers": 3148,
+          "pvChangePct": -0.5523906408952187,
+          "usersChangePct": -0.5222363405336722
         },
         {
           "name": "chatgpt.com",
           "dimension": "source",
-          "currentPV": 1692,
-          "previousPV": 1729,
-          "currentUsers": 537,
+          "currentPV": 1726,
+          "previousPV": 1725,
+          "currentUsers": 546,
           "previousUsers": 482,
-          "pvChangePct": -0.021399652978600348,
-          "usersChangePct": 0.11410788381742738
+          "pvChangePct": 0.0005797101449275362,
+          "usersChangePct": 0.13278008298755187
         },
         {
           "name": "instagram",
           "dimension": "source",
-          "currentPV": 730,
-          "previousPV": 727,
-          "currentUsers": 534,
-          "previousUsers": 539,
-          "pvChangePct": 0.0041265474552957355,
-          "usersChangePct": -0.00927643784786642
+          "currentPV": 729,
+          "previousPV": 721,
+          "currentUsers": 532,
+          "previousUsers": 540,
+          "pvChangePct": 0.011095700416088766,
+          "usersChangePct": -0.014814814814814815
         },
         {
           "name": "ig",
           "dimension": "source",
-          "currentPV": 435,
-          "previousPV": 692,
-          "currentUsers": 324,
-          "previousUsers": 614,
-          "pvChangePct": -0.3713872832369942,
-          "usersChangePct": -0.4723127035830619
+          "currentPV": 439,
+          "previousPV": 686,
+          "currentUsers": 325,
+          "previousUsers": 609,
+          "pvChangePct": -0.36005830903790087,
+          "usersChangePct": -0.4663382594417077
         },
         {
           "name": "youtube",
           "dimension": "source",
-          "currentPV": 921,
-          "previousPV": 1019,
-          "currentUsers": 299,
-          "previousUsers": 350,
-          "pvChangePct": -0.09617271835132483,
-          "usersChangePct": -0.1457142857142857
+          "currentPV": 907,
+          "previousPV": 1023,
+          "currentUsers": 301,
+          "previousUsers": 348,
+          "pvChangePct": -0.11339198435972629,
+          "usersChangePct": -0.13505747126436782
         },
         {
           "name": "an",
           "dimension": "source",
-          "currentPV": 461,
-          "previousPV": 453,
+          "currentPV": 460,
+          "previousPV": 446,
           "currentUsers": 288,
-          "previousUsers": 258,
-          "pvChangePct": 0.017660044150110375,
-          "usersChangePct": 0.11627906976744186
+          "previousUsers": 253,
+          "pvChangePct": 0.03139013452914798,
+          "usersChangePct": 0.1383399209486166
         },
         {
           "name": "sketchfab",
           "dimension": "source",
-          "currentPV": 605,
-          "previousPV": 624,
-          "currentUsers": 218,
-          "previousUsers": 226,
-          "pvChangePct": -0.030448717948717948,
-          "usersChangePct": -0.035398230088495575
+          "currentPV": 604,
+          "previousPV": 618,
+          "currentUsers": 217,
+          "previousUsers": 222,
+          "pvChangePct": -0.022653721682847898,
+          "usersChangePct": -0.02252252252252252
         },
         {
           "name": "whatsapp",
           "dimension": "source",
-          "currentPV": 473,
-          "previousPV": 529,
-          "currentUsers": 163,
-          "previousUsers": 230,
-          "pvChangePct": -0.10586011342155009,
-          "usersChangePct": -0.29130434782608694
+          "currentPV": 465,
+          "previousPV": 517,
+          "currentUsers": 157,
+          "previousUsers": 232,
+          "pvChangePct": -0.10058027079303675,
+          "usersChangePct": -0.3232758620689655
         },
         {
           "name": "fb",
           "dimension": "source",
-          "currentPV": 181,
-          "previousPV": 228,
-          "currentUsers": 133,
-          "previousUsers": 158,
-          "pvChangePct": -0.20614035087719298,
-          "usersChangePct": -0.15822784810126583
-        },
-        {
-          "name": "Securitylab.ru",
-          "dimension": "source",
-          "currentPV": 144,
-          "previousPV": 163,
-          "currentUsers": 107,
-          "previousUsers": 118,
-          "pvChangePct": -0.1165644171779141,
-          "usersChangePct": -0.09322033898305085
-        },
-        {
-          "name": "referral-program",
-          "dimension": "source",
-          "currentPV": 308,
-          "previousPV": 543,
-          "currentUsers": 103,
-          "previousUsers": 113,
-          "pvChangePct": -0.43278084714548803,
-          "usersChangePct": -0.08849557522123894
+          "currentPV": 177,
+          "previousPV": 233,
+          "currentUsers": 129,
+          "previousUsers": 161,
+          "pvChangePct": -0.24034334763948498,
+          "usersChangePct": -0.19875776397515527
         },
         {
           "name": "INS",
           "dimension": "source",
-          "currentPV": 300,
-          "previousPV": 248,
-          "currentUsers": 100,
-          "previousUsers": 112,
-          "pvChangePct": 0.20967741935483872,
-          "usersChangePct": -0.10714285714285714
+          "currentPV": 313,
+          "previousPV": 226,
+          "currentUsers": 107,
+          "previousUsers": 110,
+          "pvChangePct": 0.38495575221238937,
+          "usersChangePct": -0.02727272727272727
+        },
+        {
+          "name": "referral-program",
+          "dimension": "source",
+          "currentPV": 345,
+          "previousPV": 517,
+          "currentUsers": 106,
+          "previousUsers": 108,
+          "pvChangePct": -0.33268858800773693,
+          "usersChangePct": -0.018518518518518517
+        },
+        {
+          "name": "Securitylab.ru",
+          "dimension": "source",
+          "currentPV": 136,
+          "previousPV": 165,
+          "currentUsers": 102,
+          "previousUsers": 120,
+          "pvChangePct": -0.17575757575757575,
+          "usersChangePct": -0.15
         },
         {
           "name": "copilot.com",
           "dimension": "source",
-          "currentPV": 167,
-          "previousPV": 234,
-          "currentUsers": 48,
-          "previousUsers": 64,
-          "pvChangePct": -0.2863247863247863,
-          "usersChangePct": -0.25
+          "currentPV": 155,
+          "previousPV": 245,
+          "currentUsers": 45,
+          "previousUsers": 66,
+          "pvChangePct": -0.3673469387755102,
+          "usersChangePct": -0.3181818181818182
         },
         {
           "name": "perplexity",
           "dimension": "source",
-          "currentPV": 75,
-          "previousPV": 65,
-          "currentUsers": 27,
+          "currentPV": 72,
+          "previousPV": 70,
+          "currentUsers": 26,
           "previousUsers": 19,
-          "pvChangePct": 0.15384615384615385,
-          "usersChangePct": 0.42105263157894735
+          "pvChangePct": 0.02857142857142857,
+          "usersChangePct": 0.3684210526315789
         },
         {
           "name": "telegram",
           "dimension": "source",
-          "currentPV": 86,
-          "previousPV": 63,
-          "currentUsers": 24,
+          "currentPV": 85,
+          "previousPV": 64,
+          "currentUsers": 23,
           "previousUsers": 27,
-          "pvChangePct": 0.36507936507936506,
-          "usersChangePct": -0.1111111111111111
+          "pvChangePct": 0.328125,
+          "usersChangePct": -0.14814814814814814
         },
         {
           "name": "kocai",
@@ -670,92 +670,92 @@
         {
           "name": "cpc",
           "dimension": "medium",
-          "currentPV": 242451,
-          "previousPV": 253173,
-          "currentUsers": 116652,
-          "previousUsers": 125082,
-          "pvChangePct": -0.04235048761123816,
-          "usersChangePct": -0.06739578836283398
+          "currentPV": 242478,
+          "previousPV": 252518,
+          "currentUsers": 116661,
+          "previousUsers": 124731,
+          "pvChangePct": -0.039759541894043196,
+          "usersChangePct": -0.06469923274887558
         },
         {
           "name": "(direct)",
           "dimension": "medium",
-          "currentPV": 452100,
-          "previousPV": 470294,
-          "currentUsers": 115743,
-          "previousUsers": 117968,
-          "pvChangePct": -0.038686438695794544,
-          "usersChangePct": -0.01886104706361047
+          "currentPV": 451571,
+          "previousPV": 470098,
+          "currentUsers": 115493,
+          "previousUsers": 117996,
+          "pvChangePct": -0.03941093133772107,
+          "usersChangePct": -0.021212583477406014
         },
         {
           "name": "referral-program",
           "dimension": "medium",
-          "currentPV": 8471,
-          "previousPV": 9294,
-          "currentUsers": 3069,
-          "previousUsers": 3241,
-          "pvChangePct": -0.08855175381966861,
-          "usersChangePct": -0.05307004011107683
+          "currentPV": 8478,
+          "previousPV": 9279,
+          "currentUsers": 3072,
+          "previousUsers": 3240,
+          "pvChangePct": -0.0863239573229874,
+          "usersChangePct": -0.05185185185185185
         },
         {
           "name": "influencer",
           "dimension": "medium",
-          "currentPV": 1640,
-          "previousPV": 1670,
+          "currentPV": 1627,
+          "previousPV": 1673,
           "currentUsers": 835,
-          "previousUsers": 884,
-          "pvChangePct": -0.017964071856287425,
-          "usersChangePct": -0.05542986425339366
+          "previousUsers": 882,
+          "pvChangePct": -0.02749551703526599,
+          "usersChangePct": -0.05328798185941043
         },
         {
           "name": "paid",
           "dimension": "medium",
-          "currentPV": 930,
-          "previousPV": 1292,
+          "currentPV": 931,
+          "previousPV": 1281,
           "currentUsers": 693,
-          "previousUsers": 996,
-          "pvChangePct": -0.2801857585139319,
-          "usersChangePct": -0.3042168674698795
+          "previousUsers": 986,
+          "pvChangePct": -0.273224043715847,
+          "usersChangePct": -0.2971602434077079
         },
         {
           "name": "email",
           "dimension": "medium",
-          "currentPV": 802,
-          "previousPV": 873,
-          "currentUsers": 287,
-          "previousUsers": 287,
-          "pvChangePct": -0.08132875143184422,
-          "usersChangePct": 0
+          "currentPV": 805,
+          "previousPV": 876,
+          "currentUsers": 283,
+          "previousUsers": 290,
+          "pvChangePct": -0.08105022831050228,
+          "usersChangePct": -0.02413793103448276
         },
         {
           "name": "social",
           "dimension": "medium",
-          "currentPV": 641,
-          "previousPV": 604,
-          "currentUsers": 223,
-          "previousUsers": 221,
-          "pvChangePct": 0.061258278145695365,
-          "usersChangePct": 0.00904977375565611
+          "currentPV": 651,
+          "previousPV": 586,
+          "currentUsers": 227,
+          "previousUsers": 223,
+          "pvChangePct": 0.11092150170648464,
+          "usersChangePct": 0.017937219730941704
         },
         {
           "name": "paid_social",
           "dimension": "medium",
-          "currentPV": 155,
-          "previousPV": 280,
-          "currentUsers": 145,
-          "previousUsers": 246,
-          "pvChangePct": -0.44642857142857145,
-          "usersChangePct": -0.4105691056910569
+          "currentPV": 160,
+          "previousPV": 273,
+          "currentUsers": 150,
+          "previousUsers": 239,
+          "pvChangePct": -0.4139194139194139,
+          "usersChangePct": -0.3723849372384937
         },
         {
           "name": "link",
           "dimension": "medium",
-          "currentPV": 300,
-          "previousPV": 524,
-          "currentUsers": 102,
-          "previousUsers": 113,
-          "pvChangePct": -0.42748091603053434,
-          "usersChangePct": -0.09734513274336283
+          "currentPV": 337,
+          "previousPV": 498,
+          "currentUsers": 105,
+          "previousUsers": 108,
+          "pvChangePct": -0.3232931726907631,
+          "usersChangePct": -0.027777777777777776
         },
         {
           "name": "ads",
@@ -780,11 +780,11 @@
         {
           "name": "page",
           "dimension": "medium",
-          "currentPV": 26,
+          "currentPV": 33,
           "previousPV": 14,
           "currentUsers": 8,
           "previousUsers": 7,
-          "pvChangePct": 0.8571428571428571,
+          "pvChangePct": 1.3571428571428572,
           "usersChangePct": 0.14285714285714285
         },
         {
@@ -838,16 +838,6 @@
           "usersChangePct": 0.5
         },
         {
-          "name": "organic",
-          "dimension": "medium",
-          "currentPV": 12,
-          "previousPV": 2,
-          "currentUsers": 3,
-          "previousUsers": 2,
-          "pvChangePct": 5,
-          "usersChangePct": 0.5
-        },
-        {
           "name": "admitad",
           "dimension": "medium",
           "currentPV": 14,
@@ -856,6 +846,16 @@
           "previousUsers": 63,
           "pvChangePct": -0.9598853868194842,
           "usersChangePct": -0.9523809523809523
+        },
+        {
+          "name": "organic",
+          "dimension": "medium",
+          "currentPV": 12,
+          "previousPV": 2,
+          "currentUsers": 3,
+          "previousUsers": 2,
+          "pvChangePct": 5,
+          "usersChangePct": 0.5
         },
         {
           "name": "referral",
@@ -871,11 +871,11 @@
           "name": "youtube",
           "dimension": "medium",
           "currentPV": 4,
-          "previousPV": 12,
+          "previousPV": 9,
           "currentUsers": 2,
-          "previousUsers": 2,
-          "pvChangePct": -0.6666666666666666,
-          "usersChangePct": 0
+          "previousUsers": 1,
+          "pvChangePct": -0.5555555555555556,
+          "usersChangePct": 1
         },
         {
           "name": "sponsorship",
@@ -976,302 +976,302 @@
         {
           "name": "(direct)",
           "dimension": "campaign",
-          "currentPV": 461358,
-          "previousPV": 480569,
-          "currentUsers": 118071,
-          "previousUsers": 120462,
-          "pvChangePct": -0.03997552900832139,
-          "usersChangePct": -0.01984858295562086
+          "currentPV": 460889,
+          "previousPV": 480313,
+          "currentUsers": 117829,
+          "previousUsers": 120493,
+          "pvChangePct": -0.04044029622350426,
+          "usersChangePct": -0.02210916816744541
         },
         {
           "name": "2025-purchase",
           "dimension": "campaign",
-          "currentPV": 55923,
-          "previousPV": 64402,
-          "currentUsers": 36644,
-          "previousUsers": 42580,
-          "pvChangePct": -0.131657401944039,
-          "usersChangePct": -0.1394081728511038
+          "currentPV": 55714,
+          "previousPV": 64639,
+          "currentUsers": 36411,
+          "previousUsers": 42762,
+          "pvChangePct": -0.13807453704419934,
+          "usersChangePct": -0.1485197137645573
         },
         {
           "name": "Conversion_Focus",
           "dimension": "campaign",
-          "currentPV": 90716,
-          "previousPV": 91988,
-          "currentUsers": 33132,
-          "previousUsers": 32766,
-          "pvChangePct": -0.01382789059442536,
-          "usersChangePct": 0.01117011536348654
+          "currentPV": 90760,
+          "previousPV": 91859,
+          "currentUsers": 33148,
+          "previousUsers": 32712,
+          "pvChangePct": -0.011963988286395454,
+          "usersChangePct": 0.013328442161897774
         },
         {
           "name": "Traffic_Focus",
           "dimension": "campaign",
-          "currentPV": 22474,
-          "previousPV": 23153,
-          "currentUsers": 9907,
-          "previousUsers": 9998,
-          "pvChangePct": -0.029326653133503217,
-          "usersChangePct": -0.009101820364072815
+          "currentPV": 22636,
+          "previousPV": 22515,
+          "currentUsers": 10019,
+          "previousUsers": 9491,
+          "pvChangePct": 0.005374194981123695,
+          "usersChangePct": 0.05563165103782531
         },
         {
           "name": "Creative_Test_ASC_CBO_0805",
           "dimension": "campaign",
-          "currentPV": 8111,
-          "previousPV": 8526,
-          "currentUsers": 4173,
-          "previousUsers": 4752,
-          "pvChangePct": -0.04867464227070138,
-          "usersChangePct": -0.12184343434343434
+          "currentPV": 8132,
+          "previousPV": 8467,
+          "currentUsers": 4182,
+          "previousUsers": 4725,
+          "pvChangePct": -0.03956537144206921,
+          "usersChangePct": -0.11492063492063492
         },
         {
           "name": "Game Development 26.01.12",
           "dimension": "campaign",
-          "currentPV": 7264,
-          "previousPV": 5249,
-          "currentUsers": 4104,
-          "previousUsers": 3090,
-          "pvChangePct": 0.3838826443132025,
-          "usersChangePct": 0.32815533980582523
+          "currentPV": 7220,
+          "previousPV": 5409,
+          "currentUsers": 4091,
+          "previousUsers": 3163,
+          "pvChangePct": 0.3348123497873914,
+          "usersChangePct": 0.2933923490357256
         },
         {
           "name": "[3D Print] Main Countries_Interest Target_Feb_26",
           "dimension": "campaign",
-          "currentPV": 3896,
-          "previousPV": 5647,
-          "currentUsers": 3822,
-          "previousUsers": 5460,
-          "pvChangePct": -0.3100761466265274,
-          "usersChangePct": -0.3
+          "currentPV": 3883,
+          "previousPV": 5622,
+          "currentUsers": 3808,
+          "previousUsers": 5438,
+          "pvChangePct": -0.30932052650302383,
+          "usersChangePct": -0.2997425524089739
         },
         {
           "name": "gamedev",
           "dimension": "campaign",
-          "currentPV": 3814,
-          "previousPV": 5189,
-          "currentUsers": 2677,
-          "previousUsers": 3654,
-          "pvChangePct": -0.2649836191944498,
-          "usersChangePct": -0.2673782156540777
+          "currentPV": 3831,
+          "previousPV": 5136,
+          "currentUsers": 2689,
+          "previousUsers": 3622,
+          "pvChangePct": -0.254088785046729,
+          "usersChangePct": -0.25759249033683046
         },
         {
           "name": "visual-art",
           "dimension": "campaign",
-          "currentPV": 4244,
-          "previousPV": 4713,
-          "currentUsers": 2616,
-          "previousUsers": 3307,
-          "pvChangePct": -0.09951198811797157,
-          "usersChangePct": -0.2089507106138494
+          "currentPV": 4252,
+          "previousPV": 4652,
+          "currentUsers": 2626,
+          "previousUsers": 3276,
+          "pvChangePct": -0.08598452278589853,
+          "usersChangePct": -0.1984126984126984
         },
         {
           "name": "LeadGen_Manual_ROW_SignUp_1020",
           "dimension": "campaign",
-          "currentPV": 2806,
-          "previousPV": 3020,
-          "currentUsers": 2526,
-          "previousUsers": 2708,
-          "pvChangePct": -0.07086092715231788,
-          "usersChangePct": -0.0672082717872969
+          "currentPV": 2827,
+          "previousPV": 3003,
+          "currentUsers": 2544,
+          "previousUsers": 2699,
+          "pvChangePct": -0.05860805860805861,
+          "usersChangePct": -0.0574286772878844
         },
         {
           "name": "Game Dev_26Feb.",
           "dimension": "campaign",
-          "currentPV": 4075,
-          "previousPV": 1517,
-          "currentUsers": 2271,
-          "previousUsers": 1066,
-          "pvChangePct": 1.6862228081740276,
-          "usersChangePct": 1.1303939962476548
+          "currentPV": 4116,
+          "previousPV": 1539,
+          "currentUsers": 2299,
+          "previousUsers": 1079,
+          "pvChangePct": 1.6744639376218324,
+          "usersChangePct": 1.1306765523632993
         },
         {
           "name": "3d-print",
           "dimension": "campaign",
-          "currentPV": 2780,
-          "previousPV": 5098,
-          "currentUsers": 2021,
-          "previousUsers": 3481,
-          "pvChangePct": -0.4546881129854845,
-          "usersChangePct": -0.41941970698075265
-        },
-        {
-          "name": "[Retargeting] After Meshy4_Jan_26",
-          "dimension": "campaign",
-          "currentPV": 3313,
-          "previousPV": 3018,
-          "currentUsers": 1992,
-          "previousUsers": 1979,
-          "pvChangePct": 0.09774685222001325,
-          "usersChangePct": 0.006568974229408792
+          "currentPV": 2768,
+          "previousPV": 5006,
+          "currentUsers": 2019,
+          "previousUsers": 3430,
+          "pvChangePct": -0.44706352377147424,
+          "usersChangePct": -0.41137026239067054
         },
         {
           "name": "game-dev",
           "dimension": "campaign",
-          "currentPV": 3219,
-          "previousPV": 2016,
-          "currentUsers": 1991,
-          "previousUsers": 1484,
-          "pvChangePct": 0.5967261904761905,
-          "usersChangePct": 0.341644204851752
+          "currentPV": 3267,
+          "previousPV": 2015,
+          "currentUsers": 2012,
+          "previousUsers": 1478,
+          "pvChangePct": 0.6213399503722085,
+          "usersChangePct": 0.36129905277401897
+        },
+        {
+          "name": "[Retargeting] After Meshy4_Jan_26",
+          "dimension": "campaign",
+          "currentPV": 3304,
+          "previousPV": 3041,
+          "currentUsers": 1985,
+          "previousUsers": 1987,
+          "pvChangePct": 0.0864847089773101,
+          "usersChangePct": -0.0010065425264217413
         },
         {
           "name": "[Retargeting] Before Meshy4_Jan_26_01",
           "dimension": "campaign",
-          "currentPV": 2380,
-          "previousPV": 2263,
-          "currentUsers": 1415,
-          "previousUsers": 1443,
-          "pvChangePct": 0.05170128148475475,
-          "usersChangePct": -0.019404019404019403
+          "currentPV": 2381,
+          "previousPV": 2239,
+          "currentUsers": 1427,
+          "previousUsers": 1437,
+          "pvChangePct": 0.06342117016525234,
+          "usersChangePct": -0.006958942240779402
         },
         {
           "name": "kitchn_test_1106",
           "dimension": "campaign",
           "currentPV": 1877,
-          "previousPV": 1337,
-          "currentUsers": 1282,
-          "previousUsers": 897,
-          "pvChangePct": 0.40388930441286464,
-          "usersChangePct": 0.42920847268673357
+          "previousPV": 1344,
+          "currentUsers": 1287,
+          "previousUsers": 898,
+          "pvChangePct": 0.39657738095238093,
+          "usersChangePct": 0.43318485523385303
         },
         {
           "name": "[AS-Expansion-CBO] GameDev_260112",
           "dimension": "campaign",
-          "currentPV": 1961,
+          "currentPV": 1980,
           "previousPV": 1295,
-          "currentUsers": 1253,
-          "previousUsers": 929,
-          "pvChangePct": 0.5142857142857142,
-          "usersChangePct": 0.348762109795479
+          "currentUsers": 1261,
+          "previousUsers": 926,
+          "pvChangePct": 0.528957528957529,
+          "usersChangePct": 0.3617710583153348
         },
         {
           "name": "[Game Dev] Main Countries_Interest Target_25Dec.",
           "dimension": "campaign",
-          "currentPV": 1583,
-          "previousPV": 274,
-          "currentUsers": 982,
-          "previousUsers": 220,
-          "pvChangePct": 4.7773722627737225,
-          "usersChangePct": 3.463636363636364
+          "currentPV": 1580,
+          "previousPV": 289,
+          "currentUsers": 985,
+          "previousUsers": 234,
+          "pvChangePct": 4.467128027681661,
+          "usersChangePct": 3.2094017094017095
         },
         {
           "name": "Game Dev_1202",
           "dimension": "campaign",
-          "currentPV": 1283,
-          "previousPV": 924,
-          "currentUsers": 820,
-          "previousUsers": 635,
-          "pvChangePct": 0.38852813852813856,
-          "usersChangePct": 0.29133858267716534
+          "currentPV": 1288,
+          "previousPV": 917,
+          "currentUsers": 819,
+          "previousUsers": 631,
+          "pvChangePct": 0.40458015267175573,
+          "usersChangePct": 0.2979397781299525
         },
         {
           "name": "Performance-Max-ROW-Sign-Up",
           "dimension": "campaign",
-          "currentPV": 2772,
-          "previousPV": 3328,
-          "currentUsers": 760,
+          "currentPV": 2767,
+          "previousPV": 3349,
+          "currentUsers": 762,
           "previousUsers": 931,
-          "pvChangePct": -0.16706730769230768,
-          "usersChangePct": -0.1836734693877551
+          "pvChangePct": -0.17378321887130488,
+          "usersChangePct": -0.18152524167561762
         },
         {
           "name": "Performance-Max-Brazil-Sign-Up",
           "dimension": "campaign",
-          "currentPV": 2330,
-          "previousPV": 2983,
-          "currentUsers": 707,
-          "previousUsers": 780,
-          "pvChangePct": -0.21890714046262152,
-          "usersChangePct": -0.09358974358974359
+          "currentPV": 2308,
+          "previousPV": 2929,
+          "currentUsers": 702,
+          "previousUsers": 764,
+          "pvChangePct": -0.21201775349948787,
+          "usersChangePct": -0.08115183246073299
         },
         {
           "name": "[AS-Expansion-CBO] 3DPrint_260201",
           "dimension": "campaign",
-          "currentPV": 831,
-          "previousPV": 809,
-          "currentUsers": 604,
-          "previousUsers": 557,
-          "pvChangePct": 0.027194066749072928,
-          "usersChangePct": 0.0843806104129264
+          "currentPV": 826,
+          "previousPV": 814,
+          "currentUsers": 598,
+          "previousUsers": 564,
+          "pvChangePct": 0.014742014742014743,
+          "usersChangePct": 0.06028368794326241
         },
         {
           "name": "[AS-Test-ABO] GameDev_KOL-Upload-1_260202",
           "dimension": "campaign",
-          "currentPV": 688,
-          "previousPV": 342,
-          "currentUsers": 532,
-          "previousUsers": 260,
-          "pvChangePct": 1.0116959064327486,
-          "usersChangePct": 1.0461538461538462
+          "currentPV": 684,
+          "previousPV": 351,
+          "currentUsers": 531,
+          "previousUsers": 265,
+          "pvChangePct": 0.9487179487179487,
+          "usersChangePct": 1.0037735849056604
         },
         {
           "name": "120229824170050045",
           "dimension": "campaign",
-          "currentPV": 477,
-          "previousPV": 954,
-          "currentUsers": 453,
-          "previousUsers": 877,
-          "pvChangePct": -0.5,
-          "usersChangePct": -0.48346636259977194
+          "currentPV": 480,
+          "previousPV": 940,
+          "currentUsers": 454,
+          "previousUsers": 863,
+          "pvChangePct": -0.48936170212765956,
+          "usersChangePct": -0.473928157589803
         },
         {
           "name": "meshy-march-26-campaign",
           "dimension": "campaign",
           "currentPV": 648,
-          "previousPV": 784,
+          "previousPV": 775,
           "currentUsers": 424,
-          "previousUsers": 444,
-          "pvChangePct": -0.17346938775510204,
-          "usersChangePct": -0.04504504504504504
+          "previousUsers": 441,
+          "pvChangePct": -0.1638709677419355,
+          "usersChangePct": -0.03854875283446712
         },
         {
           "name": "[AS-Expansion-CBO] VisualArt_260201",
           "dimension": "campaign",
-          "currentPV": 635,
-          "previousPV": 538,
-          "currentUsers": 423,
-          "previousUsers": 376,
-          "pvChangePct": 0.18029739776951673,
-          "usersChangePct": 0.125
+          "currentPV": 628,
+          "previousPV": 548,
+          "currentUsers": 422,
+          "previousUsers": 377,
+          "pvChangePct": 0.145985401459854,
+          "usersChangePct": 0.11936339522546419
         },
         {
           "name": "[Retargeting] After Meshy4_Jan_26_01 - Copy",
           "dimension": "campaign",
-          "currentPV": 762,
-          "previousPV": 707,
-          "currentUsers": 413,
-          "previousUsers": 425,
-          "pvChangePct": 0.07779349363507779,
-          "usersChangePct": -0.02823529411764706
+          "currentPV": 758,
+          "previousPV": 716,
+          "currentUsers": 412,
+          "previousUsers": 426,
+          "pvChangePct": 0.05865921787709497,
+          "usersChangePct": -0.03286384976525822
         },
         {
           "name": "[AS-Expansion-CBO] InteriorDesign_260201",
           "dimension": "campaign",
-          "currentPV": 666,
-          "previousPV": 665,
-          "currentUsers": 386,
-          "previousUsers": 346,
-          "pvChangePct": 0.0015037593984962407,
-          "usersChangePct": 0.11560693641618497
+          "currentPV": 653,
+          "previousPV": 651,
+          "currentUsers": 382,
+          "previousUsers": 335,
+          "pvChangePct": 0.0030721966205837174,
+          "usersChangePct": 0.14029850746268657
         },
         {
           "name": "[AS-Test-CBO] VisualArt_all_260202",
           "dimension": "campaign",
-          "currentPV": 428,
-          "previousPV": 327,
-          "currentUsers": 334,
-          "previousUsers": 249,
-          "pvChangePct": 0.308868501529052,
-          "usersChangePct": 0.3413654618473896
+          "currentPV": 426,
+          "previousPV": 331,
+          "currentUsers": 332,
+          "previousUsers": 252,
+          "pvChangePct": 0.28700906344410876,
+          "usersChangePct": 0.31746031746031744
         },
         {
           "name": "2025-purchase-CA",
           "dimension": "campaign",
-          "currentPV": 1044,
-          "previousPV": 1210,
-          "currentUsers": 329,
-          "previousUsers": 368,
-          "pvChangePct": -0.1371900826446281,
-          "usersChangePct": -0.10597826086956522
+          "currentPV": 1039,
+          "previousPV": 1226,
+          "currentUsers": 332,
+          "previousUsers": 369,
+          "pvChangePct": -0.15252854812398042,
+          "usersChangePct": -0.1002710027100271
         }
       ]
     },
@@ -1282,302 +1282,302 @@
         {
           "name": "(direct)",
           "dimension": "content",
-          "currentPV": 461242,
-          "previousPV": 480698,
-          "currentUsers": 119693,
-          "previousUsers": 122290,
-          "pvChangePct": -0.04047447669846765,
-          "usersChangePct": -0.02123640526617058
+          "currentPV": 460691,
+          "previousPV": 480463,
+          "currentUsers": 119463,
+          "previousUsers": 122297,
+          "pvChangePct": -0.04115197216018715,
+          "usersChangePct": -0.0231730950064188
         },
         {
           "name": "signup_focus",
           "dimension": "content",
-          "currentPV": 36345,
-          "previousPV": 39375,
-          "currentUsers": 25821,
-          "previousUsers": 28303,
-          "pvChangePct": -0.07695238095238095,
-          "usersChangePct": -0.08769388404056107
+          "currentPV": 36044,
+          "previousPV": 39749,
+          "currentUsers": 25586,
+          "previousUsers": 28577,
+          "pvChangePct": -0.09320989207275655,
+          "usersChangePct": -0.10466459040487106
         },
         {
           "name": "NovTest",
           "dimension": "content",
-          "currentPV": 25100,
-          "previousPV": 25450,
-          "currentUsers": 14588,
-          "previousUsers": 14484,
-          "pvChangePct": -0.0137524557956778,
-          "usersChangePct": 0.007180336923501795
+          "currentPV": 25207,
+          "previousPV": 25194,
+          "currentUsers": 14633,
+          "previousUsers": 14372,
+          "pvChangePct": 0.0005159958720330237,
+          "usersChangePct": 0.018160311717227942
         },
         {
           "name": "Brand",
           "dimension": "content",
-          "currentPV": 36200,
-          "previousPV": 35763,
-          "currentUsers": 9072,
-          "previousUsers": 8625,
-          "pvChangePct": 0.012219332830019853,
-          "usersChangePct": 0.05182608695652174
+          "currentPV": 36170,
+          "previousPV": 35828,
+          "currentUsers": 9048,
+          "previousUsers": 8651,
+          "pvChangePct": 0.009545606787987049,
+          "usersChangePct": 0.045890648479944514
         },
         {
           "name": "Brazil",
           "dimension": "content",
-          "currentPV": 12730,
-          "previousPV": 14313,
-          "currentUsers": 7040,
-          "previousUsers": 7545,
-          "pvChangePct": -0.11059875637532313,
-          "usersChangePct": -0.06693174287607687
+          "currentPV": 12874,
+          "previousPV": 13589,
+          "currentUsers": 7146,
+          "previousUsers": 7007,
+          "pvChangePct": -0.0526160865405843,
+          "usersChangePct": 0.019837305551591265
         },
         {
           "name": "game-development",
           "dimension": "content",
-          "currentPV": 9515,
-          "previousPV": 10674,
-          "currentUsers": 6827,
-          "previousUsers": 7632,
-          "pvChangePct": -0.10858160014989694,
-          "usersChangePct": -0.1054769392033543
+          "currentPV": 9505,
+          "previousPV": 10669,
+          "currentUsers": 6834,
+          "previousUsers": 7617,
+          "pvChangePct": -0.10910113412690974,
+          "usersChangePct": -0.10279637652619142
         },
         {
           "name": "Broad_Targeting",
           "dimension": "content",
-          "currentPV": 7976,
-          "previousPV": 4970,
-          "currentUsers": 4055,
-          "previousUsers": 2654,
-          "pvChangePct": 0.6048289738430583,
-          "usersChangePct": 0.5278824415975886
+          "currentPV": 7997,
+          "previousPV": 5032,
+          "currentUsers": 4064,
+          "previousUsers": 2697,
+          "pvChangePct": 0.5892289348171701,
+          "usersChangePct": 0.5068594734890619
         },
         {
           "name": "PMaxstest",
           "dimension": "content",
-          "currentPV": 11886,
-          "previousPV": 13142,
-          "currentUsers": 3933,
-          "previousUsers": 4286,
-          "pvChangePct": -0.09557145031197686,
-          "usersChangePct": -0.08236117592160523
+          "currentPV": 11852,
+          "previousPV": 13173,
+          "currentUsers": 3927,
+          "previousUsers": 4307,
+          "pvChangePct": -0.10028087755256965,
+          "usersChangePct": -0.08822846528906432
         },
         {
           "name": "video_KOL-partnership-KR-04159_260303",
           "dimension": "content",
-          "currentPV": 3862,
-          "previousPV": 5318,
-          "currentUsers": 3791,
-          "previousUsers": 5224,
-          "pvChangePct": -0.2737871380218127,
-          "usersChangePct": -0.27431087289433387
+          "currentPV": 3849,
+          "previousPV": 5302,
+          "currentUsers": 3777,
+          "previousUsers": 5208,
+          "pvChangePct": -0.27404752923425124,
+          "usersChangePct": -0.27476958525345624
         },
         {
           "name": "ROW",
           "dimension": "content",
-          "currentPV": 9718,
-          "previousPV": 8838,
-          "currentUsers": 2867,
-          "previousUsers": 2455,
-          "pvChangePct": 0.09957003847024214,
-          "usersChangePct": 0.16782077393075356
+          "currentPV": 9737,
+          "previousPV": 8922,
+          "currentUsers": 2873,
+          "previousUsers": 2485,
+          "pvChangePct": 0.09134723156242995,
+          "usersChangePct": 0.1561368209255533
         },
         {
           "name": "g2",
           "dimension": "content",
-          "currentPV": 3814,
-          "previousPV": 5189,
-          "currentUsers": 2677,
-          "previousUsers": 3654,
-          "pvChangePct": -0.2649836191944498,
-          "usersChangePct": -0.2673782156540777
+          "currentPV": 3831,
+          "previousPV": 5136,
+          "currentUsers": 2689,
+          "previousUsers": 3622,
+          "pvChangePct": -0.254088785046729,
+          "usersChangePct": -0.25759249033683046
         },
         {
           "name": "PMax3Dprint",
           "dimension": "content",
-          "currentPV": 7424,
-          "previousPV": 7590,
-          "currentUsers": 2596,
-          "previousUsers": 2530,
-          "pvChangePct": -0.021870882740447958,
-          "usersChangePct": 0.02608695652173913
+          "currentPV": 7395,
+          "previousPV": 7660,
+          "currentUsers": 2585,
+          "previousUsers": 2554,
+          "pvChangePct": -0.034595300261096605,
+          "usersChangePct": 0.012137823022709476
         },
         {
           "name": "video_KOL-upload-JP-03950_260213",
           "dimension": "content",
-          "currentPV": 3206,
-          "previousPV": 2719,
-          "currentUsers": 1956,
-          "previousUsers": 1722,
-          "pvChangePct": 0.17910996689959544,
-          "usersChangePct": 0.13588850174216027
+          "currentPV": 3121,
+          "previousPV": 2822,
+          "currentUsers": 1905,
+          "previousUsers": 1776,
+          "pvChangePct": 0.10595322466335932,
+          "usersChangePct": 0.07263513513513513
         },
         {
           "name": "video_KOL-upload-Turkish-01953_260201",
           "dimension": "content",
-          "currentPV": 2913,
-          "previousPV": 876,
-          "currentUsers": 1879,
-          "previousUsers": 636,
-          "pvChangePct": 2.3253424657534247,
-          "usersChangePct": 1.9544025157232705
+          "currentPV": 2931,
+          "previousPV": 903,
+          "currentUsers": 1898,
+          "previousUsers": 662,
+          "pvChangePct": 2.2458471760797343,
+          "usersChangePct": 1.8670694864048338
         },
         {
           "name": "DE",
           "dimension": "content",
-          "currentPV": 4389,
-          "previousPV": 3823,
-          "currentUsers": 1174,
-          "previousUsers": 994,
-          "pvChangePct": 0.14805126863719592,
-          "usersChangePct": 0.18108651911468812
+          "currentPV": 4424,
+          "previousPV": 3813,
+          "currentUsers": 1179,
+          "previousUsers": 998,
+          "pvChangePct": 0.16024127983215317,
+          "usersChangePct": 0.1813627254509018
         },
         {
           "name": "video_KOL-partnership-EN-05638_260316",
           "dimension": "content",
-          "currentPV": 1812,
-          "previousPV": 98,
-          "currentUsers": 1048,
-          "previousUsers": 62,
-          "pvChangePct": 17.489795918367346,
-          "usersChangePct": 15.903225806451612
+          "currentPV": 1785,
+          "previousPV": 125,
+          "currentUsers": 1035,
+          "previousUsers": 82,
+          "pvChangePct": 13.28,
+          "usersChangePct": 11.621951219512194
         },
         {
           "name": "Partnership",
           "dimension": "content",
-          "currentPV": 1562,
-          "previousPV": 5573,
-          "currentUsers": 1021,
-          "previousUsers": 3467,
-          "pvChangePct": -0.7197200789520904,
-          "usersChangePct": -0.7055090856648399
+          "currentPV": 1575,
+          "previousPV": 5432,
+          "currentUsers": 1025,
+          "previousUsers": 3406,
+          "pvChangePct": -0.7100515463917526,
+          "usersChangePct": -0.6990604815032296
         },
         {
           "name": "video_KOL-partnership-JP-03969_260310",
           "dimension": "content",
-          "currentPV": 1923,
-          "previousPV": 547,
-          "currentUsers": 989,
-          "previousUsers": 364,
-          "pvChangePct": 2.5155393053016453,
-          "usersChangePct": 1.717032967032967
+          "currentPV": 1942,
+          "previousPV": 565,
+          "currentUsers": 1001,
+          "previousUsers": 376,
+          "pvChangePct": 2.4371681415929203,
+          "usersChangePct": 1.6622340425531914
         },
         {
           "name": "3d-modeling",
           "dimension": "content",
-          "currentPV": 2782,
-          "previousPV": 2914,
-          "currentUsers": 871,
-          "previousUsers": 897,
-          "pvChangePct": -0.045298558682223745,
-          "usersChangePct": -0.028985507246376812
+          "currentPV": 2809,
+          "previousPV": 2946,
+          "currentUsers": 875,
+          "previousUsers": 894,
+          "pvChangePct": -0.04650373387644263,
+          "usersChangePct": -0.021252796420581657
         },
         {
           "name": "video_IH-Media-EN_New Feature for Game Devs-Low-poly_260126 - Copy",
           "dimension": "content",
-          "currentPV": 1299,
-          "previousPV": 1172,
-          "currentUsers": 763,
-          "previousUsers": 763,
-          "pvChangePct": 0.1083617747440273,
-          "usersChangePct": 0
+          "currentPV": 1300,
+          "previousPV": 1161,
+          "currentUsers": 769,
+          "previousUsers": 753,
+          "pvChangePct": 0.11972437553832903,
+          "usersChangePct": 0.021248339973439574
         },
         {
           "name": "video_KOL-partnership-EN-04741_260227",
           "dimension": "content",
-          "currentPV": 1114,
-          "previousPV": 210,
-          "currentUsers": 724,
-          "previousUsers": 152,
-          "pvChangePct": 4.304761904761905,
-          "usersChangePct": 3.763157894736842
+          "currentPV": 1140,
+          "previousPV": 240,
+          "currentUsers": 743,
+          "previousUsers": 174,
+          "pvChangePct": 3.75,
+          "usersChangePct": 3.2701149425287355
         },
         {
           "name": "video_KOL_partnership_EN_251224@Fasiha Rauf_260113",
           "dimension": "content",
-          "currentPV": 971,
-          "previousPV": 808,
-          "currentUsers": 687,
-          "previousUsers": 599,
-          "pvChangePct": 0.20173267326732675,
-          "usersChangePct": 0.14691151919866444
+          "currentPV": 956,
+          "previousPV": 826,
+          "currentUsers": 681,
+          "previousUsers": 609,
+          "pvChangePct": 0.15738498789346247,
+          "usersChangePct": 0.11822660098522167
         },
         {
           "name": "video_IH-Ads-EN_GameDV_birthdaygift_tankmodel_260302",
           "dimension": "content",
-          "currentPV": 1080,
-          "previousPV": 882,
-          "currentUsers": 682,
-          "previousUsers": 606,
-          "pvChangePct": 0.22448979591836735,
-          "usersChangePct": 0.1254125412541254
+          "currentPV": 1072,
+          "previousPV": 916,
+          "currentUsers": 678,
+          "previousUsers": 625,
+          "pvChangePct": 0.1703056768558952,
+          "usersChangePct": 0.0848
+        },
+        {
+          "name": "video_KOL-upload-JP-04065.App_AQMgDV4p2VgYDPfH8JZEpBNIkRTtQMrlM9X2egj_IFIFDUPEEOItGg9BicLBhu9-b7aYKF00AviOnGCuNrB2tLZB_260302",
+          "dimension": "content",
+          "currentPV": 1160,
+          "previousPV": 544,
+          "currentUsers": 649,
+          "previousUsers": 363,
+          "pvChangePct": 1.1323529411764706,
+          "usersChangePct": 0.7878787878787878
         },
         {
           "name": "Japan",
           "dimension": "content",
           "currentPV": 1686,
-          "previousPV": 1823,
-          "currentUsers": 642,
-          "previousUsers": 659,
-          "pvChangePct": -0.07515085024684585,
-          "usersChangePct": -0.025796661608497723
-        },
-        {
-          "name": "video_KOL-upload-JP-04065.App_AQMgDV4p2VgYDPfH8JZEpBNIkRTtQMrlM9X2egj_IFIFDUPEEOItGg9BicLBhu9-b7aYKF00AviOnGCuNrB2tLZB_260302",
-          "dimension": "content",
-          "currentPV": 1139,
-          "previousPV": 556,
-          "currentUsers": 638,
-          "previousUsers": 372,
-          "pvChangePct": 1.0485611510791366,
-          "usersChangePct": 0.7150537634408602
-        },
-        {
-          "name": "video_KOL-partnership-EN-03872_0120",
-          "dimension": "content",
-          "currentPV": 1043,
-          "previousPV": 575,
-          "currentUsers": 634,
-          "previousUsers": 412,
-          "pvChangePct": 0.8139130434782609,
-          "usersChangePct": 0.5388349514563107
+          "previousPV": 1802,
+          "currentUsers": 645,
+          "previousUsers": 649,
+          "pvChangePct": -0.06437291897891231,
+          "usersChangePct": -0.0061633281972265025
         },
         {
           "name": "video_KOL-Upload-KR_251003@꿀무새_",
           "dimension": "content",
-          "currentPV": 868,
-          "previousPV": 408,
-          "currentUsers": 610,
-          "previousUsers": 288,
-          "pvChangePct": 1.1274509803921569,
-          "usersChangePct": 1.1180555555555556
+          "currentPV": 899,
+          "previousPV": 410,
+          "currentUsers": 629,
+          "previousUsers": 289,
+          "pvChangePct": 1.1926829268292682,
+          "usersChangePct": 1.1764705882352942
         },
         {
-          "name": "video_KOL-upload-EN-04345_260302",
+          "name": "video_KOL-partnership-EN-03872_0120",
           "dimension": "content",
-          "currentPV": 808,
-          "previousPV": 374,
-          "currentUsers": 589,
-          "previousUsers": 275,
-          "pvChangePct": 1.160427807486631,
-          "usersChangePct": 1.1418181818181818
+          "currentPV": 1032,
+          "previousPV": 594,
+          "currentUsers": 628,
+          "previousUsers": 423,
+          "pvChangePct": 0.7373737373737373,
+          "usersChangePct": 0.4846335697399527
         },
         {
           "name": "US",
           "dimension": "content",
-          "currentPV": 1941,
-          "previousPV": 1970,
-          "currentUsers": 585,
-          "previousUsers": 576,
-          "pvChangePct": -0.014720812182741117,
-          "usersChangePct": 0.015625
+          "currentPV": 1951,
+          "previousPV": 1945,
+          "currentUsers": 589,
+          "previousUsers": 572,
+          "pvChangePct": 0.003084832904884319,
+          "usersChangePct": 0.02972027972027972
         },
         {
           "name": "3d-printing",
           "dimension": "content",
-          "currentPV": 1596,
-          "previousPV": 1725,
-          "currentUsers": 583,
+          "currentPV": 1606,
+          "previousPV": 1739,
+          "currentUsers": 586,
           "previousUsers": 598,
-          "pvChangePct": -0.07478260869565218,
-          "usersChangePct": -0.02508361204013378
+          "pvChangePct": -0.07648073605520414,
+          "usersChangePct": -0.020066889632107024
+        },
+        {
+          "name": "video_KOL-upload-EN-04345_260302",
+          "dimension": "content",
+          "currentPV": 803,
+          "previousPV": 392,
+          "currentUsers": 583,
+          "previousUsers": 288,
+          "pvChangePct": 1.0484693877551021,
+          "usersChangePct": 1.0243055555555556
         }
       ]
     },
@@ -1588,32 +1588,32 @@
         {
           "name": "Desktop",
           "dimension": "device",
-          "currentPV": 447208,
-          "previousPV": 467824,
-          "currentUsers": 117265,
-          "previousUsers": 120122,
-          "pvChangePct": -0.04406785457778994,
-          "usersChangePct": -0.023784152778009025
+          "currentPV": 446889,
+          "previousPV": 467711,
+          "currentUsers": 117072,
+          "previousUsers": 120200,
+          "pvChangePct": -0.04451894439087385,
+          "usersChangePct": -0.026023294509151414
         },
         {
           "name": "Mobile",
           "dimension": "device",
-          "currentPV": 245127,
-          "previousPV": 254692,
-          "currentUsers": 111119,
-          "previousUsers": 118574,
-          "pvChangePct": -0.03755516466948314,
-          "usersChangePct": -0.06287213048391721
+          "currentPV": 244975,
+          "previousPV": 253975,
+          "currentUsers": 111042,
+          "previousUsers": 118189,
+          "pvChangePct": -0.0354365587164091,
+          "usersChangePct": -0.0604709406120705
         },
         {
           "name": "Tablet",
           "dimension": "device",
-          "currentPV": 15319,
-          "previousPV": 15945,
-          "currentUsers": 6210,
-          "previousUsers": 6836,
-          "pvChangePct": -0.03925995609909062,
-          "usersChangePct": -0.09157401989467524
+          "currentPV": 15316,
+          "previousPV": 15852,
+          "currentUsers": 6229,
+          "previousUsers": 6800,
+          "pvChangePct": -0.03381276810497098,
+          "usersChangePct": -0.08397058823529412
         }
       ]
     },
@@ -1624,302 +1624,302 @@
         {
           "name": "/",
           "dimension": "path",
-          "currentPV": 168442,
-          "previousPV": 182220,
-          "currentUsers": 125230,
-          "previousUsers": 134233,
-          "pvChangePct": -0.07561189770606959,
-          "usersChangePct": -0.0670699455424523
+          "currentPV": 168486,
+          "previousPV": 181492,
+          "currentUsers": 125158,
+          "previousUsers": 133836,
+          "pvChangePct": -0.07166156084014723,
+          "usersChangePct": -0.06484055112226905
         },
         {
           "name": "/workspace",
           "dimension": "path",
-          "currentPV": 276377,
-          "previousPV": 290403,
-          "currentUsers": 57620,
-          "previousUsers": 59053,
-          "pvChangePct": -0.0482983991212212,
-          "usersChangePct": -0.024266337019287758
+          "currentPV": 276045,
+          "previousPV": 290215,
+          "currentUsers": 57586,
+          "previousUsers": 59063,
+          "pvChangePct": -0.04882587047533725,
+          "usersChangePct": -0.025007195706279736
         },
         {
           "name": "/discover",
           "dimension": "path",
-          "currentPV": 93943,
-          "previousPV": 93330,
-          "currentUsers": 49080,
-          "previousUsers": 49455,
-          "pvChangePct": 0.006568091717561342,
-          "usersChangePct": -0.0075826508947528055
+          "currentPV": 93949,
+          "previousPV": 93288,
+          "currentUsers": 49083,
+          "previousUsers": 49421,
+          "pvChangePct": 0.00708558442672155,
+          "usersChangePct": -0.006839197911818863
         },
         {
           "name": "/supa/popup-callback",
           "dimension": "path",
-          "currentPV": 17054,
-          "previousPV": 16893,
-          "currentUsers": 16449,
-          "previousUsers": 16288,
-          "pvChangePct": 0.009530574794293494,
-          "usersChangePct": 0.00988457760314342
+          "currentPV": 17037,
+          "previousPV": 16868,
+          "currentUsers": 16446,
+          "previousUsers": 16257,
+          "pvChangePct": 0.01001897083234527,
+          "usersChangePct": 0.011625761210555453
         },
         {
           "name": "/unsubscribe",
           "dimension": "path",
-          "currentPV": 5927,
-          "previousPV": 5222,
-          "currentUsers": 5585,
-          "previousUsers": 4861,
-          "pvChangePct": 0.13500574492531597,
-          "usersChangePct": 0.1489405472125077
+          "currentPV": 5947,
+          "previousPV": 5233,
+          "currentUsers": 5598,
+          "previousUsers": 4873,
+          "pvChangePct": 0.13644181158035543,
+          "usersChangePct": 0.14877898625076955
         },
         {
           "name": "/use-cases/3d-printer-files",
           "dimension": "path",
-          "currentPV": 6533,
-          "previousPV": 6140,
-          "currentUsers": 4659,
-          "previousUsers": 4616,
-          "pvChangePct": 0.06400651465798046,
-          "usersChangePct": 0.009315424610051993
+          "currentPV": 6427,
+          "previousPV": 6263,
+          "currentUsers": 4597,
+          "previousUsers": 4670,
+          "pvChangePct": 0.026185534089094683,
+          "usersChangePct": -0.01563169164882227
         },
         {
           "name": "/pricing",
           "dimension": "path",
-          "currentPV": 4761,
-          "previousPV": 4657,
-          "currentUsers": 4001,
-          "previousUsers": 3965,
-          "pvChangePct": 0.022331973373416362,
-          "usersChangePct": 0.009079445145018916
+          "currentPV": 4759,
+          "previousPV": 4652,
+          "currentUsers": 4003,
+          "previousUsers": 3974,
+          "pvChangePct": 0.02300085984522786,
+          "usersChangePct": 0.007297433316557625
         },
         {
           "name": "/settings/subscription",
           "dimension": "path",
-          "currentPV": 5903,
-          "previousPV": 6948,
-          "currentUsers": 3645,
-          "previousUsers": 4220,
-          "pvChangePct": -0.15040299366724239,
-          "usersChangePct": -0.1362559241706161
+          "currentPV": 5877,
+          "previousPV": 6954,
+          "currentUsers": 3622,
+          "previousUsers": 4222,
+          "pvChangePct": -0.1548748921484038,
+          "usersChangePct": -0.14211274277593558
         },
         {
           "name": "/settings/profile",
           "dimension": "path",
-          "currentPV": 4635,
-          "previousPV": 4626,
-          "currentUsers": 3309,
-          "previousUsers": 3311,
-          "pvChangePct": 0.0019455252918287938,
-          "usersChangePct": -0.0006040471156750226
+          "currentPV": 4639,
+          "previousPV": 4621,
+          "currentUsers": 3315,
+          "previousUsers": 3302,
+          "pvChangePct": 0.0038952607660679506,
+          "usersChangePct": 0.003937007874015748
         },
         {
           "name": "/features/image-to-3d",
           "dimension": "path",
-          "currentPV": 3233,
-          "previousPV": 3277,
-          "currentUsers": 2787,
-          "previousUsers": 2785,
-          "pvChangePct": -0.013426914861153494,
-          "usersChangePct": 0.000718132854578097
+          "currentPV": 3225,
+          "previousPV": 3288,
+          "currentUsers": 2776,
+          "previousUsers": 2796,
+          "pvChangePct": -0.01916058394160584,
+          "usersChangePct": -0.00715307582260372
         },
         {
           "name": "/payment-status",
           "dimension": "path",
-          "currentPV": 2341,
-          "previousPV": 2570,
-          "currentUsers": 1914,
-          "previousUsers": 2025,
-          "pvChangePct": -0.08910505836575876,
-          "usersChangePct": -0.054814814814814816
+          "currentPV": 2333,
+          "previousPV": 2564,
+          "currentUsers": 1909,
+          "previousUsers": 2019,
+          "pvChangePct": -0.09009360374414976,
+          "usersChangePct": -0.05448241703813769
         },
         {
           "name": "/use-cases/3d-printer-files/",
           "dimension": "path",
-          "currentPV": 1957,
-          "previousPV": 1930,
-          "currentUsers": 1534,
-          "previousUsers": 1558,
-          "pvChangePct": 0.013989637305699482,
-          "usersChangePct": -0.01540436456996149
+          "currentPV": 1953,
+          "previousPV": 1927,
+          "currentUsers": 1536,
+          "previousUsers": 1555,
+          "pvChangePct": 0.013492475350285417,
+          "usersChangePct": -0.012218649517684888
         },
         {
           "name": "/settings/api",
           "dimension": "path",
-          "currentPV": 2369,
+          "currentPV": 2380,
           "previousPV": 1981,
-          "currentUsers": 1458,
-          "previousUsers": 1246,
-          "pvChangePct": 0.19586067642604746,
-          "usersChangePct": 0.17014446227929375
+          "currentUsers": 1463,
+          "previousUsers": 1248,
+          "pvChangePct": 0.20141342756183744,
+          "usersChangePct": 0.17227564102564102
         },
         {
           "name": "/arena",
           "dimension": "path",
-          "currentPV": 2346,
-          "previousPV": 2364,
-          "currentUsers": 1332,
-          "previousUsers": 1266,
-          "pvChangePct": -0.007614213197969543,
-          "usersChangePct": 0.052132701421800945
+          "currentPV": 2348,
+          "previousPV": 2363,
+          "currentUsers": 1331,
+          "previousUsers": 1269,
+          "pvChangePct": -0.006347862886161659,
+          "usersChangePct": 0.04885736800630418
         },
         {
           "name": "/api",
           "dimension": "path",
           "currentPV": 1604,
-          "previousPV": 1616,
-          "currentUsers": 1315,
-          "previousUsers": 1268,
-          "pvChangePct": -0.007425742574257425,
-          "usersChangePct": 0.03706624605678233
+          "previousPV": 1611,
+          "currentUsers": 1322,
+          "previousUsers": 1262,
+          "pvChangePct": -0.004345127250155183,
+          "usersChangePct": 0.04754358161648178
         },
         {
           "name": "/education",
           "dimension": "path",
-          "currentPV": 1411,
-          "previousPV": 1438,
-          "currentUsers": 1172,
-          "previousUsers": 1208,
-          "pvChangePct": -0.018776077885952713,
-          "usersChangePct": -0.029801324503311258
-        },
-        {
-          "name": "/collections/Interior-Design-01983b4d-aa5f-7109-96aa-4d87602fd835",
-          "dimension": "path",
-          "currentPV": 1445,
-          "previousPV": 1092,
-          "currentUsers": 934,
-          "previousUsers": 765,
-          "pvChangePct": 0.3232600732600733,
-          "usersChangePct": 0.22091503267973855
+          "currentPV": 1398,
+          "previousPV": 1444,
+          "currentUsers": 1166,
+          "previousUsers": 1211,
+          "pvChangePct": -0.03185595567867036,
+          "usersChangePct": -0.037159372419488024
         },
         {
           "name": "/scene",
           "dimension": "path",
-          "currentPV": 1267,
-          "previousPV": 1615,
-          "currentUsers": 934,
-          "previousUsers": 1141,
-          "pvChangePct": -0.2154798761609907,
-          "usersChangePct": -0.18141980718667836
+          "currentPV": 1275,
+          "previousPV": 1607,
+          "currentUsers": 941,
+          "previousUsers": 1138,
+          "pvChangePct": -0.20659614187927816,
+          "usersChangePct": -0.17311072056239016
+        },
+        {
+          "name": "/collections/Interior-Design-01983b4d-aa5f-7109-96aa-4d87602fd835",
+          "dimension": "path",
+          "currentPV": 1447,
+          "previousPV": 1086,
+          "currentUsers": 929,
+          "previousUsers": 764,
+          "pvChangePct": 0.3324125230202578,
+          "usersChangePct": 0.21596858638743455
         },
         {
           "name": "/es",
           "dimension": "path",
-          "currentPV": 983,
-          "previousPV": 838,
-          "currentUsers": 916,
-          "previousUsers": 754,
-          "pvChangePct": 0.1730310262529833,
-          "usersChangePct": 0.21485411140583555
+          "currentPV": 979,
+          "previousPV": 845,
+          "currentUsers": 912,
+          "previousUsers": 763,
+          "pvChangePct": 0.15857988165680473,
+          "usersChangePct": 0.19528178243774574
         },
         {
           "name": "/settings/billing",
           "dimension": "path",
-          "currentPV": 1362,
-          "previousPV": 1512,
-          "currentUsers": 911,
-          "previousUsers": 972,
-          "pvChangePct": -0.0992063492063492,
-          "usersChangePct": -0.06275720164609054
+          "currentPV": 1347,
+          "previousPV": 1520,
+          "currentUsers": 900,
+          "previousUsers": 981,
+          "pvChangePct": -0.11381578947368422,
+          "usersChangePct": -0.08256880733944955
         },
         {
           "name": "/@meshy_3d_printing/subscribed",
           "dimension": "path",
-          "currentPV": 1044,
-          "previousPV": 1156,
-          "currentUsers": 847,
-          "previousUsers": 961,
-          "pvChangePct": -0.09688581314878893,
-          "usersChangePct": -0.1186264308012487
+          "currentPV": 1053,
+          "previousPV": 1151,
+          "currentUsers": 852,
+          "previousUsers": 960,
+          "pvChangePct": -0.08514335360556038,
+          "usersChangePct": -0.1125
         },
         {
           "name": "/blog/category/image-to-3d",
           "dimension": "path",
-          "currentPV": 999,
-          "previousPV": 1090,
-          "currentUsers": 835,
-          "previousUsers": 876,
-          "pvChangePct": -0.0834862385321101,
-          "usersChangePct": -0.04680365296803653
+          "currentPV": 1000,
+          "previousPV": 1093,
+          "currentUsers": 834,
+          "previousUsers": 880,
+          "pvChangePct": -0.08508691674290943,
+          "usersChangePct": -0.05227272727272727
         },
         {
           "name": "/use-cases/free-3d-models",
           "dimension": "path",
-          "currentPV": 971,
-          "previousPV": 823,
-          "currentUsers": 793,
-          "previousUsers": 672,
-          "pvChangePct": 0.1798298906439854,
-          "usersChangePct": 0.1800595238095238
+          "currentPV": 974,
+          "previousPV": 819,
+          "currentUsers": 794,
+          "previousUsers": 670,
+          "pvChangePct": 0.18925518925518925,
+          "usersChangePct": 0.18507462686567164
         },
         {
           "name": "/referral",
           "dimension": "path",
-          "currentPV": 1386,
-          "previousPV": 1512,
-          "currentUsers": 791,
-          "previousUsers": 910,
-          "pvChangePct": -0.08333333333333333,
-          "usersChangePct": -0.13076923076923078
+          "currentPV": 1381,
+          "previousPV": 1513,
+          "currentUsers": 788,
+          "previousUsers": 911,
+          "pvChangePct": -0.08724388631857237,
+          "usersChangePct": -0.1350164654226125
         },
         {
           "name": "/@hanssi",
           "dimension": "path",
-          "currentPV": 881,
-          "previousPV": 673,
-          "currentUsers": 625,
-          "previousUsers": 489,
-          "pvChangePct": 0.30906389301634474,
-          "usersChangePct": 0.278118609406953
+          "currentPV": 871,
+          "previousPV": 684,
+          "currentUsers": 619,
+          "previousUsers": 493,
+          "pvChangePct": 0.2733918128654971,
+          "usersChangePct": 0.25557809330628806
         },
         {
           "name": "/ja",
           "dimension": "path",
           "currentPV": 705,
-          "previousPV": 798,
-          "currentUsers": 584,
-          "previousUsers": 638,
-          "pvChangePct": -0.11654135338345864,
-          "usersChangePct": -0.08463949843260188
+          "previousPV": 790,
+          "currentUsers": 581,
+          "previousUsers": 630,
+          "pvChangePct": -0.10759493670886076,
+          "usersChangePct": -0.07777777777777778
         },
         {
           "name": "/@meshy_games/subscribed",
           "dimension": "path",
-          "currentPV": 738,
-          "previousPV": 823,
-          "currentUsers": 572,
-          "previousUsers": 634,
-          "pvChangePct": -0.10328068043742406,
-          "usersChangePct": -0.09779179810725552
+          "currentPV": 743,
+          "previousPV": 815,
+          "currentUsers": 578,
+          "previousUsers": 628,
+          "pvChangePct": -0.08834355828220859,
+          "usersChangePct": -0.07961783439490445
         },
         {
           "name": "/video",
           "dimension": "path",
-          "currentPV": 1041,
-          "previousPV": 1126,
-          "currentUsers": 568,
-          "previousUsers": 627,
-          "pvChangePct": -0.07548845470692718,
-          "usersChangePct": -0.09409888357256778
+          "currentPV": 1039,
+          "previousPV": 1123,
+          "currentUsers": 565,
+          "previousUsers": 626,
+          "pvChangePct": -0.07479964381121995,
+          "usersChangePct": -0.09744408945686901
         },
         {
           "name": "/contact",
           "dimension": "path",
-          "currentPV": 641,
-          "previousPV": 698,
-          "currentUsers": 560,
-          "previousUsers": 598,
-          "pvChangePct": -0.08166189111747851,
-          "usersChangePct": -0.06354515050167224
+          "currentPV": 638,
+          "previousPV": 689,
+          "currentUsers": 557,
+          "previousUsers": 591,
+          "pvChangePct": -0.07402031930333818,
+          "usersChangePct": -0.05752961082910321
         },
         {
           "name": "/settings/team",
           "dimension": "path",
-          "currentPV": 795,
-          "previousPV": 674,
-          "currentUsers": 537,
-          "previousUsers": 509,
-          "pvChangePct": 0.1795252225519288,
-          "usersChangePct": 0.0550098231827112
+          "currentPV": 801,
+          "previousPV": 668,
+          "currentUsers": 539,
+          "previousUsers": 505,
+          "pvChangePct": 0.19910179640718562,
+          "usersChangePct": 0.06732673267326733
         }
       ]
     }
