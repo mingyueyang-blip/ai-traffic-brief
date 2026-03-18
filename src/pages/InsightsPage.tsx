@@ -3,7 +3,6 @@ import { useTrafficData } from '../hooks/useTrafficData'
 import { useAnomalyEngine } from '../hooks/useAnomalyEngine'
 import { useLens } from '../context/LensContext'
 import { LENS_MAP } from '../config/lenses'
-import { DIMENSIONS } from '../config/dimensions'
 import { getTopDrops, getTopRises } from '../engine/alerts'
 import type { DimensionItem } from '../data/types'
 import LensOverview from '../components/insights/LensOverview'
@@ -12,9 +11,10 @@ import DistributionChart from '../components/insights/DistributionChart'
 import KeySignalsSummary from '../components/insights/KeySignalsSummary'
 import DimensionMovers from '../components/insights/DimensionMovers'
 import DrilldownPanel from '../components/insights/DrilldownPanel'
+import SubscriptionOverview from '../components/insights/SubscriptionOverview'
 
 export default function InsightsPage() {
-  const { overview, trends, dimensions, distribution, totalUsers } = useTrafficData()
+  const { overview, trends, dimensions, distribution, totalUsers, subscription } = useTrafficData()
   const { anomalies } = useAnomalyEngine(overview, dimensions)
   const { lens } = useLens()
   const lensConfig = LENS_MAP[lens]
@@ -23,26 +23,28 @@ export default function InsightsPage() {
   const drops = getTopDrops(anomalies)
   const rises = getTopRises(anomalies)
 
-  // Get display label for the distribution dimension
-  const distDimLabel = DIMENSIONS.find(d => d.key === lensConfig.distributionDimension)?.label ?? ''
-
   return (
     <div className="space-y-6">
-      {/* Lens Overview — core metrics */}
+      {/* Lens Overview — 3-card grid */}
       <LensOverview
         overview={overview}
         totalUsers={totalUsers}
-        lensLabel={lensConfig.label}
+        usersLabel={lensConfig.usersLabel}
       />
 
-      {/* Trend Chart */}
-      <TrendChart data={trends} />
+      {/* Trend Chart — Users only */}
+      <TrendChart data={trends} usersLabel={lensConfig.usersLabel} />
 
       {/* Distribution Chart */}
       <DistributionChart
         data={distribution}
-        dimensionLabel={distDimLabel}
+        title={lensConfig.distributionTitle}
       />
+
+      {/* Subscription Overview — Growth PM only */}
+      {lens === 'growth-pm' && subscription && (
+        <SubscriptionOverview data={subscription} totalUsers={totalUsers} />
+      )}
 
       {/* Key Signals */}
       <KeySignalsSummary

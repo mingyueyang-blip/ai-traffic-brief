@@ -123,6 +123,10 @@ export default function DimensionMovers({ dimensions, onSelectItem, selectedItem
             <h4 className="mb-2 flex items-center gap-1.5 text-xs font-semibold text-sunny">
               <span>▲</span> Rising
             </h4>
+            <div className="mb-1 flex items-center justify-between px-3 text-[10px] font-medium uppercase tracking-wider text-muted">
+              <span>Name / Users</span>
+              <span>Change</span>
+            </div>
             <div className="space-y-1.5">
               {rising.map(item => (
                 <ItemRow
@@ -139,6 +143,10 @@ export default function DimensionMovers({ dimensions, onSelectItem, selectedItem
             <h4 className="mb-2 flex items-center gap-1.5 text-xs font-semibold text-storm">
               <span>▼</span> Dropping
             </h4>
+            <div className="mb-1 flex items-center justify-between px-3 text-[10px] font-medium uppercase tracking-wider text-muted">
+              <span>Name / Users</span>
+              <span>Change</span>
+            </div>
             <div className="space-y-1.5">
               {dropping.map(item => (
                 <ItemRow

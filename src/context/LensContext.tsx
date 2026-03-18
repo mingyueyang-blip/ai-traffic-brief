@@ -7,12 +7,12 @@ interface LensContextValue {
 }
 
 const LensContext = createContext<LensContextValue>({
-  lens: 'all',
+  lens: 'paid-ads',
   setLens: () => {},
 })
 
 export function LensProvider({ children }: { children: ReactNode }) {
-  const [lens, setLens] = useState<LensKey>('all')
+  const [lens, setLens] = useState<LensKey>('paid-ads')
   return (
     <LensContext.Provider value={{ lens, setLens }}>
       {children}

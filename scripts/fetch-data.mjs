@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 
 /**
- * AI Traffic Brief — PostHog Data Fetcher (Lens Architecture)
+ * AI Traffic Brief — PostHog Data Fetcher (Lens Architecture V2)
  *
- * Queries PostHog HogQL API per-Lens and outputs AllLensData JSON.
+ * Queries PostHog HogQL API for 4 department lenses:
+ *   Paid Ads, KOL & Affiliate, SEO, Growth PM
  *
  * Usage: node scripts/fetch-data.mjs
  *    or: pnpm run fetch-data
@@ -29,22 +30,16 @@ if (!HOST || !PROJECT_ID || !API_KEY) {
 }
 
 const PAGEVIEW_EVENT = '$pageview'
+const SUBSCRIPTION_EVENT = 'Subscribed users'
 
 // ── Lens definitions ────────────────────────────────────
 
 const LENSES = [
   {
-    key: 'all',
-    label: 'All Traffic',
-    whereClause: '',
-    distributionDimension: 'medium',
-    visibleDimensions: ['country', 'source', 'medium', 'campaign', 'content', 'device', 'path'],
-  },
-  {
     key: 'paid-ads',
     label: 'Paid Ads',
-    whereClause: `AND properties.utm_medium IN ('cpc', 'paid-social', 'display')`,
-    distributionDimension: 'medium',
+    whereClause: `AND properties.utm_medium IN ('cpc', 'paid-social', 'display', 'paid', 'paid_social', 'ads')`,
+    distributionDimension: 'source',
     visibleDimensions: ['source', 'campaign', 'content', 'country', 'device'],
   },
   {
@@ -58,26 +53,29 @@ const LENSES = [
     key: 'seo',
     label: 'SEO',
     whereClause: `AND (properties.utm_medium IS NULL OR properties.utm_medium = '' OR properties.utm_medium = 'social')`,
-    distributionDimension: 'country',
-    visibleDimensions: ['source', 'country', 'path', 'device'],
+    distributionDimension: 'referring_domain',
+    visibleDimensions: ['referring_domain', 'country', 'path', 'device'],
   },
   {
     key: 'growth-pm',
     label: 'Growth PM',
     whereClause: `AND properties.utm_medium IN ('referral-program', 'link', 'email')`,
-    distributionDimension: 'medium',
-    visibleDimensions: ['source', 'content', 'path'],
+    distributionDimension: 'source',
+    visibleDimensions: ['source', 'share_type', 'path'],
+    hasSubscription: true,
   },
 ]
 
 const ALL_DIMENSIONS = {
-  country:  { expr: `properties.$geoip_country_name`, label: 'Country' },
-  source:   { expr: `properties.utm_source`,          label: 'UTM Source' },
-  medium:   { expr: `properties.utm_medium`,          label: 'UTM Medium' },
-  campaign: { expr: `properties.utm_campaign`,        label: 'UTM Campaign' },
-  content:  { expr: `properties.utm_content`,         label: 'UTM Content' },
-  device:   { expr: `properties.$device_type`,        label: 'Device Type' },
-  path:     { expr: `properties.$pathname`,           label: 'Path Name' },
+  country:          { expr: `properties.$geoip_country_name`, label: 'Country' },
+  source:           { expr: `properties.utm_source`,          label: 'UTM Source' },
+  medium:           { expr: `properties.utm_medium`,          label: 'UTM Medium' },
+  campaign:         { expr: `properties.utm_campaign`,        label: 'UTM Campaign' },
+  content:          { expr: `properties.utm_content`,         label: 'UTM Content' },
+  device:           { expr: `properties.$device_type`,        label: 'Device Type' },
+  path:             { expr: `properties.$pathname`,           label: 'Path Name' },
+  share_type:       { expr: `properties.share_type`,          label: 'Share Type' },
+  referring_domain: { expr: `properties.$referring_domain`,   label: 'Referring Domain' },
 }
 
 // ── API Helper ──────────────────────────────────────────
@@ -217,14 +215,52 @@ async function fetchDistribution(distDimKey, distDimConfig, whereClause) {
   }))
 }
 
+async function fetchSubscription() {
+  // Subscription overview: today vs yesterday
+  const { results: overviewResults } = await hogqlQuery(`
+    SELECT
+      uniqIf(distinct_id, timestamp >= now() - interval 1 day) as current_users,
+      uniqIf(distinct_id, timestamp >= now() - interval 2 day AND timestamp < now() - interval 1 day) as previous_users
+    FROM events
+    WHERE event = '${SUBSCRIPTION_EVENT}'
+      AND timestamp >= now() - interval 2 day
+  `)
+
+  const [currentUsers, previousUsers] = overviewResults[0]
+  const changePct = previousUsers === 0 ? 0 : (currentUsers - previousUsers) / previousUsers
+
+  // Subscription by country
+  const { results: countryResults } = await hogqlQuery(`
+    SELECT
+      coalesce(toString(properties.$geoip_country_name), '(unknown)') as country,
+      uniqIf(distinct_id, timestamp >= now() - interval 1 day) as current_users,
+      uniqIf(distinct_id, timestamp >= now() - interval 2 day AND timestamp < now() - interval 1 day) as previous_users
+    FROM events
+    WHERE event = '${SUBSCRIPTION_EVENT}'
+      AND timestamp >= now() - interval 2 day
+    GROUP BY country
+    HAVING current_users > 0 OR previous_users > 0
+    ORDER BY current_users DESC
+    LIMIT 10
+  `)
+
+  const byCountry = countryResults.map(([country, cur, prev]) => ({
+    country,
+    currentUsers: cur,
+    previousUsers: prev,
+  }))
+
+  return { currentUsers, previousUsers, changePct, byCountry }
+}
+
 // ── Main ────────────────────────────────────────────────
 
 async function main() {
-  console.log('AI Traffic Brief — Fetching PostHog data (Lens Architecture)...\n')
+  console.log('AI Traffic Brief — Fetching PostHog data (V2 · 4 Lenses)...\n')
 
-  // Fetch "All" overview first for totalUsers
-  const allOverview = await fetchOverview('')
-  const totalUsers = allOverview.currentUsers
+  // Fetch global total (all pageviews, no filter) for share-of-total calculation
+  const globalOverview = await fetchOverview('')
+  const totalUsers = globalOverview.currentUsers
   console.log(`  Global total: ${totalUsers.toLocaleString()} users\n`)
 
   const lenses = {}
@@ -232,9 +268,7 @@ async function main() {
   for (const lens of LENSES) {
     console.log(`── ${lens.label} ──`)
 
-    const overview = lens.key === 'all'
-      ? allOverview
-      : await fetchOverview(lens.whereClause)
+    const overview = await fetchOverview(lens.whereClause)
     console.log(`  Overview: ${overview.currentUsers.toLocaleString()} users (${(overview.usersChangePct * 100).toFixed(1)}%)`)
 
     const trends = await fetchTrends(lens.whereClause)
@@ -254,13 +288,22 @@ async function main() {
       lens.distributionDimension, distDimConfig, lens.whereClause
     )
 
-    lenses[lens.key] = {
+    const lensData = {
       overview,
       trends,
       dimensions,
       distribution,
       totalUsers,
     }
+
+    // Fetch subscription data for Growth PM
+    if (lens.hasSubscription) {
+      console.log(`  Subscription data...`)
+      lensData.subscription = await fetchSubscription()
+      console.log(`  Subscriptions: ${lensData.subscription.currentUsers} users, ${lensData.subscription.byCountry.length} countries`)
+    }
+
+    lenses[lens.key] = lensData
 
     console.log(`  ✓ ${lens.label} done\n`)
   }

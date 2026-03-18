@@ -11,7 +11,7 @@ export function useBriefGenerator(
   weather: WeatherResult,
 ): BriefOutput {
   const { lens } = useLens()
-  const lensLabel = lens === 'all' ? undefined : LENS_MAP[lens].label
+  const lensLabel = LENS_MAP[lens].usersLabel
 
   return useMemo(
     () => generator.generateBrief(overview, anomalies, weather, lensLabel),

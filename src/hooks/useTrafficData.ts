@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { useLens } from '../context/LensContext'
-import type { TrafficOverview, TrendDataPoint, DimensionBreakdown, DistributionItem, AllLensData } from '../data/types'
+import type { TrafficOverview, TrendDataPoint, DimensionBreakdown, DistributionItem, SubscriptionData, AllLensData } from '../data/types'
 
 // import.meta.glob won't fail if the file doesn't exist yet
 const modules = import.meta.glob('../data/posthog/latest.json', { eager: true })
@@ -12,6 +12,7 @@ export interface TrafficData {
   dimensions: DimensionBreakdown[]
   distribution: DistributionItem[]
   totalUsers: number
+  subscription?: SubscriptionData
 }
 
 const EMPTY_DATA: TrafficData = {
@@ -38,6 +39,7 @@ export function useTrafficData(): TrafficData {
         dimensions: d.dimensions,
         distribution: d.distribution,
         totalUsers: d.totalUsers,
+        subscription: d.subscription,
       }
     }
 

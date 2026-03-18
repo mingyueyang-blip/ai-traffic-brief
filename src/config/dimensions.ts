@@ -14,4 +14,6 @@ export const DIMENSIONS: DimensionConfig[] = [
   { key: 'content', label: 'UTM Content', shortLabel: 'Content' },
   { key: 'device', label: 'Device Type', shortLabel: 'Device' },
   { key: 'path', label: 'Path Name', shortLabel: 'Path' },
+  { key: 'share_type', label: 'Share Type', shortLabel: 'Share Type' },
+  { key: 'referring_domain', label: 'Referring Domain', shortLabel: 'Referrer' },
 ]

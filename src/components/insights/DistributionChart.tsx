@@ -3,7 +3,7 @@ import type { DistributionItem } from '../../data/types'
 
 interface DistributionChartProps {
   data: DistributionItem[]
-  dimensionLabel: string
+  title: string
 }
 
 // Color palette for stacked segments
@@ -20,7 +20,24 @@ const COLORS = [
   '#6366F1', // indigo
 ]
 
-export default function DistributionChart({ data, dimensionLabel }: DistributionChartProps) {
+function CustomLegend({ payload }: { payload?: Array<{ value: string; color: string }> }) {
+  if (!payload) return null
+  return (
+    <div className="flex flex-wrap justify-center gap-x-4 gap-y-1 mt-2">
+      {payload.map((entry, i) => (
+        <div key={i} className="flex items-center gap-1.5">
+          <span
+            className="inline-block h-2 w-2 rounded-full"
+            style={{ backgroundColor: entry.color }}
+          />
+          <span className="text-xs text-muted">{entry.value}</span>
+        </div>
+      ))}
+    </div>
+  )
+}
+
+export default function DistributionChart({ data, title }: DistributionChartProps) {
   if (data.length === 0) return null
 
   // Transform data for stacked bar: two rows (Today / Yesterday), each segment = a distribution item
@@ -39,8 +56,7 @@ export default function DistributionChart({ data, dimensionLabel }: Distribution
 
   return (
     <div className="rounded-xl border border-border bg-surface p-6">
-      <h3 className="mb-1 text-sm font-semibold text-primary">Distribution</h3>
-      <p className="mb-4 text-xs text-muted">by {dimensionLabel}</p>
+      <h3 className="mb-4 text-sm font-semibold text-primary">{title}</h3>
       <div className="h-32">
         <ResponsiveContainer width="100%" height="100%">
           <BarChart
@@ -66,20 +82,22 @@ export default function DistributionChart({ data, dimensionLabel }: Distribution
                 color: '#F0F0F0',
                 fontSize: '12px',
               }}
-              formatter={(value, name) => [
-                `${Number(value).toLocaleString()} users`,
-                String(name),
-              ]}
+              formatter={(value, name) => {
+                const item = data.find(d => d.name === name)
+                const pct = item ? `${(item.currentPct * 100).toFixed(1)}%` : ''
+                return [
+                  `${Number(value).toLocaleString()} users (${pct})`,
+                  String(name),
+                ]
+              }}
             />
-            <Legend
-              wrapperStyle={{ fontSize: '11px', color: '#888888' }}
-              iconSize={8}
-            />
+            <Legend content={<CustomLegend />} />
             {segmentKeys.map((key, i) => (
               <Bar
                 key={key}
                 dataKey={key}
                 stackId="stack"
+                fill={COLORS[i % COLORS.length]}
                 radius={i === segmentKeys.length - 1 ? [0, 4, 4, 0] : [0, 0, 0, 0]}
               >
                 <Cell fill={COLORS[i % COLORS.length]} />

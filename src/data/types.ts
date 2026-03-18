@@ -1,4 +1,4 @@
-export type DimensionType = 'country' | 'source' | 'medium' | 'campaign' | 'content' | 'device' | 'path'
+export type DimensionType = 'country' | 'source' | 'medium' | 'campaign' | 'content' | 'device' | 'path' | 'share_type' | 'referring_domain'
 
 export interface TrafficOverview {
   currentPV: number
@@ -38,14 +38,13 @@ export interface AnomalyCandidate extends DimensionItem {
   description: string
 }
 
-// New streamlined brief output
 export interface BriefOutput {
   headline: string
   weather: WeatherStatus
   weatherSummary: string
-  summary: string              // 1-2 sentence AI summary
-  keySignals: string[]         // 3-4 bullet points
-  suggestedChecks: string[]    // max 2, short
+  summary: string
+  keySignals: string[]
+  suggestedChecks: string[]
   alerts: AnomalyCandidate[]
   topDrops: AnomalyCandidate[]
   topRises: AnomalyCandidate[]
@@ -59,14 +58,27 @@ export interface DimensionBreakdown {
 
 // ── Lens Architecture ──────────────────────────────────
 
-export type LensKey = 'all' | 'paid-ads' | 'kol' | 'seo' | 'growth-pm'
+export type LensKey = 'paid-ads' | 'kol' | 'seo' | 'growth-pm'
 
 export interface DistributionItem {
   name: string
   currentUsers: number
   previousUsers: number
-  currentPct: number    // today's share (0-1)
-  previousPct: number   // yesterday's share (0-1)
+  currentPct: number
+  previousPct: number
+}
+
+export interface SubscriptionCountry {
+  country: string
+  currentUsers: number
+  previousUsers: number
+}
+
+export interface SubscriptionData {
+  currentUsers: number
+  previousUsers: number
+  changePct: number
+  byCountry: SubscriptionCountry[]
 }
 
 export interface LensData {
@@ -74,7 +86,8 @@ export interface LensData {
   trends: TrendDataPoint[]
   dimensions: DimensionBreakdown[]
   distribution: DistributionItem[]
-  totalUsers: number  // site-wide total Users (for share calculation)
+  totalUsers: number
+  subscription?: SubscriptionData
 }
 
 export interface AllLensData {
