@@ -1,0 +1,76 @@
+import type { DimensionBreakdown } from '../types'
+
+export const mockDimensions: DimensionBreakdown[] = [
+  {
+    dimension: 'country',
+    label: 'Country',
+    items: [
+      { name: 'United States', dimension: 'country', currentPV: 4200, previousPV: 4100, currentUsers: 1580, previousUsers: 1520, pvChangePct: 0.024, usersChangePct: 0.039 },
+      { name: 'Germany', dimension: 'country', currentPV: 820, previousPV: 1500, currentUsers: 310, previousUsers: 520, pvChangePct: -0.453, usersChangePct: -0.404 },
+      { name: 'United Kingdom', dimension: 'country', currentPV: 1850, previousPV: 1520, currentUsers: 680, previousUsers: 560, pvChangePct: 0.217, usersChangePct: 0.214 },
+      { name: 'Japan', dimension: 'country', currentPV: 1380, previousPV: 1420, currentUsers: 490, previousUsers: 480, pvChangePct: -0.028, usersChangePct: 0.021 },
+      { name: 'France', dimension: 'country', currentPV: 980, previousPV: 1150, currentUsers: 350, previousUsers: 400, pvChangePct: -0.148, usersChangePct: -0.125 },
+      { name: 'Brazil', dimension: 'country', currentPV: 750, previousPV: 800, currentUsers: 280, previousUsers: 290, pvChangePct: -0.063, usersChangePct: -0.034 },
+      { name: 'India', dimension: 'country', currentPV: 1120, previousPV: 1080, currentUsers: 420, previousUsers: 400, pvChangePct: 0.037, usersChangePct: 0.05 },
+      { name: 'Canada', dimension: 'country', currentPV: 680, previousPV: 710, currentUsers: 250, previousUsers: 260, pvChangePct: -0.042, usersChangePct: -0.038 },
+      { name: 'South Korea', dimension: 'country', currentPV: 520, previousPV: 480, currentUsers: 190, previousUsers: 170, pvChangePct: 0.083, usersChangePct: 0.118 },
+      { name: 'Australia', dimension: 'country', currentPV: 380, previousPV: 400, currentUsers: 140, previousUsers: 150, pvChangePct: -0.05, usersChangePct: -0.067 },
+    ],
+  },
+  {
+    dimension: 'source',
+    label: 'UTM Source',
+    items: [
+      { name: 'google', dimension: 'source', currentPV: 4800, previousPV: 5200, currentUsers: 1800, previousUsers: 1900, pvChangePct: -0.077, usersChangePct: -0.053 },
+      { name: 'twitter', dimension: 'source', currentPV: 1950, previousPV: 2100, currentUsers: 720, previousUsers: 780, pvChangePct: -0.071, usersChangePct: -0.077 },
+      { name: 'youtube', dimension: 'source', currentPV: 2100, previousPV: 1300, currentUsers: 780, previousUsers: 490, pvChangePct: 0.615, usersChangePct: 0.592 },
+      { name: 'facebook', dimension: 'source', currentPV: 1200, previousPV: 1400, currentUsers: 450, previousUsers: 520, pvChangePct: -0.143, usersChangePct: -0.135 },
+      { name: 'linkedin', dimension: 'source', currentPV: 680, previousPV: 650, currentUsers: 250, previousUsers: 240, pvChangePct: 0.046, usersChangePct: 0.042 },
+      { name: 'tiktok', dimension: 'source', currentPV: 520, previousPV: 480, currentUsers: 190, previousUsers: 180, pvChangePct: 0.083, usersChangePct: 0.056 },
+      { name: 'reddit', dimension: 'source', currentPV: 450, previousPV: 420, currentUsers: 170, previousUsers: 160, pvChangePct: 0.071, usersChangePct: 0.063 },
+      { name: 'email', dimension: 'source', currentPV: 380, previousPV: 350, currentUsers: 140, previousUsers: 130, pvChangePct: 0.086, usersChangePct: 0.077 },
+      { name: 'direct', dimension: 'source', currentPV: 820, previousPV: 850, currentUsers: 310, previousUsers: 320, pvChangePct: -0.035, usersChangePct: -0.031 },
+      { name: 'bing', dimension: 'source', currentPV: 300, previousPV: 250, currentUsers: 110, previousUsers: 90, pvChangePct: 0.2, usersChangePct: 0.222 },
+    ],
+  },
+  {
+    dimension: 'campaign',
+    label: 'UTM Campaign',
+    items: [
+      { name: 'spring_launch', dimension: 'campaign', currentPV: 2430, previousPV: 1500, currentUsers: 910, previousUsers: 560, pvChangePct: 0.62, usersChangePct: 0.625 },
+      { name: 'brand_awareness', dimension: 'campaign', currentPV: 1800, previousPV: 2100, currentUsers: 670, previousUsers: 780, pvChangePct: -0.143, usersChangePct: -0.141 },
+      { name: 'retargeting_q1', dimension: 'campaign', currentPV: 1500, previousPV: 1450, currentUsers: 560, previousUsers: 540, pvChangePct: 0.034, usersChangePct: 0.037 },
+      { name: 'product_demo', dimension: 'campaign', currentPV: 980, previousPV: 1200, currentUsers: 370, previousUsers: 450, pvChangePct: -0.183, usersChangePct: -0.178 },
+      { name: 'ai_tools_2026', dimension: 'campaign', currentPV: 1650, previousPV: 1100, currentUsers: 620, previousUsers: 410, pvChangePct: 0.5, usersChangePct: 0.512 },
+      { name: 'newsletter_mar', dimension: 'campaign', currentPV: 420, previousPV: 380, currentUsers: 160, previousUsers: 140, pvChangePct: 0.105, usersChangePct: 0.143 },
+      { name: 'partner_collab', dimension: 'campaign', currentPV: 350, previousPV: 600, currentUsers: 130, previousUsers: 220, pvChangePct: -0.417, usersChangePct: -0.409 },
+      { name: 'seo_organic', dimension: 'campaign', currentPV: 2200, previousPV: 2300, currentUsers: 820, previousUsers: 850, pvChangePct: -0.043, usersChangePct: -0.035 },
+      { name: 'influencer_mar', dimension: 'campaign', currentPV: 870, previousPV: 820, currentUsers: 320, previousUsers: 300, pvChangePct: 0.061, usersChangePct: 0.067 },
+    ],
+  },
+  {
+    dimension: 'device',
+    label: 'Device Type',
+    items: [
+      { name: 'Desktop', dimension: 'device', currentPV: 6800, previousPV: 7200, currentUsers: 2550, previousUsers: 2680, pvChangePct: -0.056, usersChangePct: -0.049 },
+      { name: 'Mobile', dimension: 'device', currentPV: 4900, previousPV: 5800, currentUsers: 1840, previousUsers: 2160, pvChangePct: -0.155, usersChangePct: -0.148 },
+      { name: 'Tablet', dimension: 'device', currentPV: 1500, previousPV: 2000, currentUsers: 560, previousUsers: 750, pvChangePct: -0.25, usersChangePct: -0.253 },
+    ],
+  },
+  {
+    dimension: 'path',
+    label: 'Path Name',
+    items: [
+      { name: '/', dimension: 'path', currentPV: 3200, previousPV: 3500, currentUsers: 1200, previousUsers: 1300, pvChangePct: -0.086, usersChangePct: -0.077 },
+      { name: '/pricing', dimension: 'path', currentPV: 1380, previousPV: 2000, currentUsers: 520, previousUsers: 750, pvChangePct: -0.31, usersChangePct: -0.307 },
+      { name: '/features', dimension: 'path', currentPV: 1800, previousPV: 1750, currentUsers: 680, previousUsers: 650, pvChangePct: 0.029, usersChangePct: 0.046 },
+      { name: '/blog', dimension: 'path', currentPV: 2100, previousPV: 1400, currentUsers: 790, previousUsers: 520, pvChangePct: 0.5, usersChangePct: 0.519 },
+      { name: '/signup', dimension: 'path', currentPV: 950, previousPV: 1000, currentUsers: 360, previousUsers: 370, pvChangePct: -0.05, usersChangePct: -0.027 },
+      { name: '/docs', dimension: 'path', currentPV: 1200, previousPV: 1150, currentUsers: 450, previousUsers: 430, pvChangePct: 0.043, usersChangePct: 0.047 },
+      { name: '/gallery', dimension: 'path', currentPV: 1100, previousPV: 1050, currentUsers: 410, previousUsers: 390, pvChangePct: 0.048, usersChangePct: 0.051 },
+      { name: '/api', dimension: 'path', currentPV: 680, previousPV: 700, currentUsers: 250, previousUsers: 260, pvChangePct: -0.029, usersChangePct: -0.038 },
+      { name: '/about', dimension: 'path', currentPV: 420, previousPV: 450, currentUsers: 160, previousUsers: 170, pvChangePct: -0.067, usersChangePct: -0.059 },
+      { name: '/contact', dimension: 'path', currentPV: 370, previousPV: 350, currentUsers: 140, previousUsers: 130, pvChangePct: 0.057, usersChangePct: 0.077 },
+    ],
+  },
+]
