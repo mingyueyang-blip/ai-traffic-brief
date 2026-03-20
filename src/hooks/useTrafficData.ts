@@ -13,6 +13,7 @@ export interface TrafficData {
   distribution: DistributionItem[]
   totalUsers: number
   subscription?: SubscriptionData
+  aiDeepDiveAnalysis?: string
 }
 
 const EMPTY_DATA: TrafficData = {
@@ -28,22 +29,23 @@ const EMPTY_DATA: TrafficData = {
 }
 
 export function useTrafficData(): TrafficData {
-  const { lens } = useLens()
+  const { lens, timeSpan } = useLens()
 
   return useMemo(() => {
-    if (posthogRaw?.lenses?.[lens]) {
-      const d = posthogRaw.lenses[lens]
+    const lensData = posthogRaw?.lenses?.[lens]?.[timeSpan]
+    if (lensData) {
       return {
-        overview: d.overview,
-        trends: d.trends,
-        dimensions: d.dimensions,
-        distribution: d.distribution,
-        totalUsers: d.totalUsers,
-        subscription: d.subscription,
+        overview: lensData.overview,
+        trends: lensData.trends,
+        dimensions: lensData.dimensions,
+        distribution: lensData.distribution,
+        totalUsers: lensData.totalUsers,
+        subscription: lensData.subscription,
+        aiDeepDiveAnalysis: lensData.aiDeepDiveAnalysis,
       }
     }
 
     console.warn('No PostHog data found. Run `pnpm fetch-data` to fetch real data.')
     return EMPTY_DATA
-  }, [lens])
+  }, [lens, timeSpan])
 }

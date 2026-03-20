@@ -6,6 +6,7 @@ import { LENS_MAP } from '../config/lenses'
 import { getTopDrops, getTopRises } from '../engine/alerts'
 import type { DimensionItem } from '../data/types'
 import LensOverview from '../components/insights/LensOverview'
+import AIDeepDiveCard from '../components/insights/AIDeepDiveCard'
 import TrendChart from '../components/insights/TrendChart'
 import DistributionChart from '../components/insights/DistributionChart'
 import KeySignalsSummary from '../components/insights/KeySignalsSummary'
@@ -14,9 +15,9 @@ import DrilldownPanel from '../components/insights/DrilldownPanel'
 import SubscriptionOverview from '../components/insights/SubscriptionOverview'
 
 export default function InsightsPage() {
-  const { overview, trends, dimensions, distribution, totalUsers, subscription } = useTrafficData()
+  const { overview, trends, dimensions, distribution, totalUsers, subscription, aiDeepDiveAnalysis } = useTrafficData()
   const { anomalies } = useAnomalyEngine(overview, dimensions)
-  const { lens } = useLens()
+  const { lens, timeSpan } = useLens()
   const lensConfig = LENS_MAP[lens]
   const [selectedItem, setSelectedItem] = useState<DimensionItem | null>(null)
 
@@ -30,7 +31,17 @@ export default function InsightsPage() {
         overview={overview}
         totalUsers={totalUsers}
         usersLabel={lensConfig.usersLabel}
+        tooltips={lensConfig.tooltips}
+        posthogUrl={lensConfig.posthogUrl}
       />
+
+      {/* AI Deep Dive — between overview and trend chart */}
+      {aiDeepDiveAnalysis && (
+        <AIDeepDiveCard
+          markdown={aiDeepDiveAnalysis}
+          animationKey={`${lens}-${timeSpan}`}
+        />
+      )}
 
       {/* Trend Chart — Users only */}
       <TrendChart data={trends} usersLabel={lensConfig.usersLabel} />

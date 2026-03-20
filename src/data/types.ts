@@ -1,5 +1,7 @@
 export type DimensionType = 'country' | 'source' | 'medium' | 'campaign' | 'content' | 'device' | 'path' | 'share_type' | 'referring_domain'
 
+export type TimeSpan = '7d' | '30d'
+
 export interface TrafficOverview {
   currentPV: number
   previousPV: number
@@ -88,9 +90,10 @@ export interface LensData {
   distribution: DistributionItem[]
   totalUsers: number
   subscription?: SubscriptionData
+  aiDeepDiveAnalysis?: string
 }
 
 export interface AllLensData {
   fetchedAt: string
-  lenses: Record<LensKey, LensData>
+  lenses: Record<LensKey, Record<TimeSpan, LensData>>
 }

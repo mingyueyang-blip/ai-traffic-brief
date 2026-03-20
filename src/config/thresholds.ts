@@ -9,5 +9,5 @@ export const WEATHER_RULES = {
   sunnyChangeMax: 0.1,
 }
 
-export const ALERTS_MAX_COUNT = 3
+export const ALERTS_MAX_COUNT = 5
 export const DIMENSION_TOP_COUNT = 3
